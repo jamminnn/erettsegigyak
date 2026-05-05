@@ -1,11 +1,15 @@
 import 'dotenv/config';
 import express from 'express';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { fetchExam } from './exam.js';
 import { parseExam, evaluateSection, summarizeExam } from './gemini.js';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 const app = express();
 app.use(express.json({ limit: '10mb' }));
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/api/load-exam', async (req, res) => {
   try {

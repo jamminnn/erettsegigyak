@@ -99,39 +99,41 @@ async function loadExam() {
   const subject = $('#subject').value;
   const year = parseInt($('#year').value, 10);
   const season = $('#season').value;
-  setStatus('Letöltés és feldolgozás (~30-60 mp első alkalommal)...');
+  const examId = `${subject}_${year}_${season}`;
   $('#loadBtn').disabled = true;
   try {
-    const r = await fetch('/api/load-exam', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ subject, year, season }),
-    });
-    const data = await r.json();
-    if (!r.ok) throw new Error(data.error || 'Hiba');
-    if (!data.structure || !Array.isArray(data.structure.sections)) {
-      throw new Error('A vizsga struktúrája hiányos vagy hibás. Próbáld újra (Betöltés gomb).');
+    // 1) Use cached structure from localStorage if we already parsed this exam
+    const local = loadLocal(examId);
+    let structure = local.structure;
+    if (!structure || !Array.isArray(structure.sections)) {
+      setStatus('Letöltés és feldolgozás (~30-60 mp első alkalommal)...');
+      const r = await fetch('/api/load-exam', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ subject, year, season }),
+      });
+      const data = await r.json();
+      if (!r.ok) throw new Error(data.error || 'Hiba');
+      if (!data.structure || !Array.isArray(data.structure.sections)) {
+        throw new Error('A vizsga struktúrája hiányos. Próbáld újra.');
+      }
+      structure = data.structure;
+    } else {
+      setStatus('Betöltve cache-ből.');
     }
-    state.examId = data.examId;
-    state.structure = data.structure;
-    state.meta = { subject: data.subject, year: data.year, season: data.season };
-    // Load from localStorage; one-time migration from server legacy data if LS empty for this exam
-    const local = loadLocal(data.examId);
-    if (!local.answers && data.legacyAnswers && Object.keys(data.legacyAnswers).length) {
-      local.answers = data.legacyAnswers;
-    }
-    if (!local.evaluations && data.legacyEvaluations && Object.keys(data.legacyEvaluations).length) {
-      local.evaluations = data.legacyEvaluations;
-    }
+
+    state.examId = examId;
+    state.structure = structure;
+    state.meta = { subject, year, season };
     state.answers = local.answers || {};
     state.evaluations = local.evaluations || {};
     state.officialSummary = local.officialSummary || null;
-    saveLocal(data.examId);
-    state.activeSectionId = data.structure.sections[0]?.id || null;
+    saveLocal(examId);
+    state.activeSectionId = structure.sections[0]?.id || null;
     renderTabs();
     renderOverall();
     renderSection();
-    setStatus(`Betöltve: ${data.subject} ${data.year} ${data.season}`);
+    setStatus(`Betöltve: ${subject} ${year} ${season}`);
   } catch (err) {
     setStatus('Hiba: ' + err.message);
   } finally {
@@ -343,7 +345,7 @@ async function runSummarize() {
     const r = await fetch('/api/summarize', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ examId: state.examId, evaluations: state.evaluations }),
+      body: JSON.stringify({ ...state.meta, evaluations: state.evaluations }),
     });
     const data = await r.json();
     if (!r.ok) throw new Error(data.error || 'Hiba');
@@ -373,6 +375,7 @@ function loadLocal(examId) {
 function saveLocal(examId) {
   if (!examId) return;
   const data = {
+    structure: state.structure,
     answers: state.answers,
     evaluations: state.evaluations,
     officialSummary: state.officialSummary,
@@ -398,7 +401,8 @@ async function evaluateActive() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        examId: state.examId, sectionId: sec.id,
+        ...state.meta,
+        section: sec,
         answers: state.answers[sec.id] || {},
       }),
     });

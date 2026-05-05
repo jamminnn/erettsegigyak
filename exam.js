@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pipeline } from 'node:stream/promises';
 
-const CACHE_DIR = path.resolve('cache');
+// On Vercel filesystem is read-only except /tmp; locally use ./cache
+const CACHE_DIR = process.env.VERCEL ? '/tmp/cache' : path.resolve('cache');
 if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
 
 // 2-digit year + month code based on season

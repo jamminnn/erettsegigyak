@@ -20,7 +20,12 @@ function buildUrls({ subject, year, season }) {
 
 async function downloadIfMissing(url, destPath) {
   if (fs.existsSync(destPath)) return destPath;
-  const res = await fetch(url);
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36',
+      'Accept': 'application/pdf,*/*',
+    },
+  });
   if (!res.ok) throw new Error(`Letöltés sikertelen (${res.status}): ${url}`);
   await pipeline(res.body, fs.createWriteStream(destPath));
   return destPath;

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Érettségi gyakorló</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Érettségi gyakorló</h1>
+  <div class="picker">
+    <label>Tantárgy:
+      <select id="subject"><option value="angol">Angol</option></select>
+    </label>
+    <label>Év:
+      <select id="year">
+        <option selected>2025</option>
+        <option>2024</option><option>2023</option>
+        <option>2022</option><option>2021</option>
+      </select>
+    </label>
+    <label>Évszak:
+      <select id="season">
+        <option value="tavasz" selected>Tavasz (május)</option>
+        <option value="osz">Ősz (október)</option>
+      </select>
+    </label>
+    <button id="loadBtn">Betöltés</button>
+    <span id="status"></span>
+  </div>
+</header>
+
+<main>
+  <nav id="sectionTabs"></nav>
+  <section id="overallSummary"></section>
+  <section id="taskArea"></section>
+  <section id="resultArea"></section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

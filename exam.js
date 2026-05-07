@@ -1,12 +1,18 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { pipeline } from 'node:stream/promises';
 
-// On Vercel filesystem is read-only except /tmp; locally use ./cache
-const CACHE_DIR = process.env.VERCEL ? '/tmp/cache' : path.resolve('cache');
-if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Direct PDF host (the www.oktatas.hu path 302 redirects here, but datacenter IPs may be blocked on www).
+// Bundled cache: PDFs committed to the repo, deployed read-only.
+const BUNDLED_CACHE = path.join(__dirname, 'cache');
+
+// Writable cache: only used when downloading new PDFs that aren't bundled.
+// On Vercel the only writable path is /tmp; locally we can use ./cache.
+const WRITABLE_CACHE = process.env.VERCEL ? '/tmp/cache' : BUNDLED_CACHE;
+if (!fs.existsSync(WRITABLE_CACHE)) fs.mkdirSync(WRITABLE_CACHE, { recursive: true });
+
 function buildUrls({ subject, year, season }) {
   const yy = String(year).slice(2);
   const monthCode = season === 'tavasz' ? 'maj' : 'okt';
@@ -24,30 +30,39 @@ const FETCH_HEADERS = {
   'Accept-Language': 'hu-HU,hu;q=0.9,en;q=0.8',
 };
 
-async function downloadIfMissing(url, destPath) {
-  if (fs.existsSync(destPath)) return destPath;
+async function resolvePdf(filename, url) {
+  // 1) Use bundled (committed) cache first — works on Vercel where IP is blocked.
+  const bundled = path.join(BUNDLED_CACHE, filename);
+  if (fs.existsSync(bundled)) return bundled;
+
+  // 2) Otherwise try writable cache (already downloaded earlier locally).
+  const writable = path.join(WRITABLE_CACHE, filename);
+  if (fs.existsSync(writable)) return writable;
+
+  // 3) Last resort: fetch from oktatas.hu (works locally; fails on Vercel due to IP block).
   let res;
   try {
     res = await fetch(url, { headers: FETCH_HEADERS, redirect: 'follow' });
   } catch (err) {
     const cause = err?.cause?.code || err?.cause?.message || err?.message || 'unknown';
-    throw new Error(`fetch hiba: ${cause} | URL: ${url}`);
+    throw new Error(
+      `Ez a vizsga (${filename}) nincs feltöltve a szerverre, és letöltés is sikertelen (${cause}). ` +
+      `Helyileg töltsd le, majd commit-old a cache/ mappába.`
+    );
   }
   if (!res.ok) throw new Error(`Letöltés sikertelen (${res.status}): ${url}`);
-  await pipeline(res.body, fs.createWriteStream(destPath));
-  return destPath;
+  await pipeline(res.body, fs.createWriteStream(writable));
+  return writable;
 }
 
 export async function fetchExam({ subject, year, season }) {
   const urls = buildUrls({ subject, year, season });
   const id = `${subject}_${year}_${season}`;
-  const flPath = path.join(CACHE_DIR, `${id}_fl.pdf`);
-  const utPath = path.join(CACHE_DIR, `${id}_ut.pdf`);
 
-  await Promise.all([
-    downloadIfMissing(urls.feladatlap, flPath),
-    downloadIfMissing(urls.utmutato, utPath),
+  const [feladatlapPath, utmutatoPath] = await Promise.all([
+    resolvePdf(`${id}_fl.pdf`, urls.feladatlap),
+    resolvePdf(`${id}_ut.pdf`, urls.utmutato),
   ]);
 
-  return { id, subject, year, season, feladatlapPath: flPath, utmutatoPath: utPath };
+  return { id, subject, year, season, feladatlapPath, utmutatoPath };
 }

@@ -1,2 +1,3 @@
-export { loadExamHandler as default } from '../handlers.js';
+import { loadExamHandler } from '../handlers.js';
+export default loadExamHandler;
 export const config = { maxDuration: 60 };

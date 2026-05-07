@@ -1,3 +1,8 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/load-exam.js": { "maxDuration": 60 },
+    "api/evaluate.js": { "maxDuration": 60 },
+    "api/summarize.js": { "maxDuration": 60 }
+  }
 }

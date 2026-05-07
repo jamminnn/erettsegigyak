@@ -1,5 +1,21 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { fetchExam } from './exam.js';
 import { parseExam, evaluateSection, summarizeExam } from './gemini.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const STRUCTURES_DIR = path.join(__dirname, 'cache', 'structures');
+
+function loadBundledStructure(examId) {
+  const file = path.join(STRUCTURES_DIR, `${examId}.json`);
+  if (!fs.existsSync(file)) return null;
+  try {
+    const parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+    if (parsed && Array.isArray(parsed.sections)) return parsed;
+  } catch {}
+  return null;
+}
 
 // Read JSON body — handles both Express (parsed) and raw Vercel requests.
 async function readJson(req) {
@@ -13,16 +29,21 @@ export async function loadExamHandler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'POST only' });
   try {
     const { subject = 'angol', year = 2023, season = 'tavasz' } = await readJson(req);
+    const examId = `${subject}_${year}_${season}`;
+
+    // 1) Try bundled pre-parsed structure first (instant, no Gemini call)
+    const bundled = loadBundledStructure(examId);
+    if (bundled) {
+      return res.json({ examId, subject, year, season, structure: bundled });
+    }
+
+    // 2) Fallback: parse with Gemini (slow, may timeout on Vercel)
     const meta = await fetchExam({ subject, year, season });
     const parsed = await parseExam(meta.feladatlapPath);
     if (!parsed || !Array.isArray(parsed.sections)) {
       return res.status(500).json({ error: 'A feldolgozott struktúra hibás. Próbáld újra.' });
     }
-    res.json({
-      examId: meta.id,
-      subject: meta.subject, year: meta.year, season: meta.season,
-      structure: parsed,
-    });
+    res.json({ examId, subject, year, season, structure: parsed });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: err.message });

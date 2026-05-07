@@ -1,0 +1,641 @@
+{
+  "sections": [
+    {
+      "id": "olvasott",
+      "title": "Olvasott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Read the following article about London markets and then read the half sentences that follow the text. Your task is to match the half sentences based on the information in the text.",
+          "type": "matching",
+          "multi_select": false,
+          "shared_options": [
+            "A) is open every day.",
+            "B) is busiest on Saturdays.",
+            "D) invites visitors to rent their own stalls.",
+            "E) is famous for the shows of street performers.",
+            "F) is the oldest market in London.",
+            "G) offers many types of international food.",
+            "H) offers various used objects for sale.",
+            "I) was rebuilt after the Second World War",
+            "K) used to have a different function in the past."
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Covent Garden Market"
+            },
+            {
+              "id": "2",
+              "prompt": "Market Hall Oxford Street"
+            },
+            {
+              "id": "3",
+              "prompt": "Brick Lane Market"
+            },
+            {
+              "id": "4",
+              "prompt": "Portobello Road Market"
+            },
+            {
+              "id": "5",
+              "prompt": "Seven Dials Market"
+            },
+            {
+              "id": "6",
+              "prompt": "Maltby Street Market"
+            }
+          ],
+          "max_points": 6,
+          "notes": "THE BEST LONDON MARKETS\nWhatever you're looking for, you'll find it at the best markets in London.\nCome with an empty stomach and discover a gourmet's paradise at Borough Market near London Bridge. Find stacks of fresh and organic produce, as well as condiments, baked treats and delicious street food. Regular three-hour Borough Market Food Tours led by knowledgeable experts explain the history of the area, while you tuck into delicious food and drink fresh from the market.\nLocated around the historic Market Building, Covent Garden Market features a range of stalls and specialty shops, as well as entertainment outside the market from opera singers to magicians. This central London shopping market is an architectural masterpiece including toy shops, perfume boutiques, restaurants and cafés.\nFeeling peckish? Then take a stairway straight to foodie heaven at Market Hall Oxford Street, the UK's largest food hall filled with everything from sweets to savouries. Three floors of eager traders are ready to serve delicious bites seven days a week in the West End.\nOne person's junk is another's gem – and you will find plenty of both at this east London market spread across several streets. At Brick Lane Market, you can pore over second-hand furniture, vintage clothes, shoes and lots more. Sunday is the best day to visit, with Upmarket featuring more than 200 stalls.\nSoak up the atmosphere at one of the oldest markets in London on Portobello Road. There has been a market here since the 1800s, offering a great variety of products. Although open every day except Sunday, the market is in full swing on Saturdays when there can be more than 1,500 stalls to browse.\nGo bananas for Seven Dials Market, an ex-banana warehouse turned glass-roofed chillout spot full of delicious food on every corner. Head downstairs if you're in need of a bite of street food, or upstairs for elegant terrazzo countertop cafes.\nLocated beneath the vaulted arches of London Bridge, the foodie paradise of Maltby Street Market comes to life every weekend. There's a fantastic range of street food, from delicious Chinese dumplings at Gyoza Guys, to Amen Ethiopian Cuisine and La Pepia's Venezuelan street food."
+        },
+        {
+          "id": "2",
+          "instruction": "Read this article about the creation of time zones. Some parts of sentences have been left out from the text. Your task is to reconstruct the text by filling in the gaps (7-14) from the list (A-M) below.",
+          "type": "fill_in",
+          "multi_select": false,
+          "shared_options": [
+            "A) couldn't agree on when to introduce the new system",
+            "B) started replacing sundials",
+            "D) created major problems for the railroad",
+            "E) came up with a revolutionary idea",
+            "F) didn't travel especially long distances",
+            "G) were quick to adopt their continent's new time zones",
+            "H) measured time based on the position of the Sun",
+            "I) led to the accident killing more than1500 people on board",
+            "K) decided to create four major time zones",
+            "L) began carrying more passengers across the continent",
+            "M) found it hard to accommodate to the new time zones"
+          ],
+          "items": [
+            {
+              "id": "7",
+              "prompt": "For millennia prior to this date, people around the world (7) ___ with midday determined by when the Sun was highest in the sky over that particular village or town."
+            },
+            {
+              "id": "8",
+              "prompt": "Mechanical clocks eventually (8) ___ in the Middle Ages."
+            },
+            {
+              "id": "9",
+              "prompt": "Since many people (9) ___ from their homes throughout history – generally as far as a horse, camel or wagon could carry them on land –, this form of timekeeping didn't cause much of a problem."
+            },
+            {
+              "id": "10",
+              "prompt": "In the mid-1800s, as trains became increasingly popular in the US and Canada, and railroads (10) ___ the need to create a more coordinated timekeeping system wasn't just an issue of efficiency but national safety."
+            },
+            {
+              "id": "11",
+              "prompt": "The existence of different local time zones (11) ___ At best, people might miss their train; at worst, trains were more likely to collide when using a single track."
+            },
+            {
+              "id": "12",
+              "prompt": "In 1879, a Canadian rail engineer named Sir Sandford Fleming (12) ___ after missing a train: the creation of time zones."
+            },
+            {
+              "id": "13",
+              "prompt": "On 18 November, 1883, the US and Canadian railroad industries adopted Fleming's idea, but because of the sheer size of the North American continent, they (13) ___ : Eastern, Central, Mountain and Pacific time – each of which remain relatively unchanged to this day."
+            },
+            {
+              "id": "14",
+              "prompt": "In North America, local towns and cities, eager for the prosperity and opportunities brought by the railroad, (14) ___ The US federal government, however, was a bit slower and fully adopted these new time zones in only in 1918."
+            }
+          ],
+          "max_points": 8,
+          "notes": "HOW RAILROADS INSPIRED THE CREATION OF TIME ZONES\nOn 18 November, 1883, railroad companies in the United States and Canada transformed time in both countries leading to the ground-breaking concept of time zones around the world.\nFor millennia prior to this date, people around the world (7) ___ with midday determined by when the Sun was highest in the sky over that particular village or town. Mechanical clocks eventually (8) ___ in the Middle Ages. Towns would set their clocks by gauging the position of the Sun, leading every city to operate on a slightly different time. This method lasted well into the 1800s, when there were at least 144 different time zones in North America.\nSince many people (9) ___ from their homes throughout history – generally as far as a horse, camel or wagon could carry them on land –, this form of timekeeping didn't cause much of a problem. That is, until the advent of the railroad.\nIn the mid-1800s, as trains became increasingly popular in the US and Canada, and railroads (10) ___ the need to create a more coordinated timekeeping system wasn't just an issue of efficiency but national safety. The existence of different local time zones (11) ___ At best, people might miss their train; at worst, trains were more likely to collide when using a single track.\nIn 1879, a Canadian rail engineer named Sir Sandford Fleming (12) ___ after missing a train: the creation of time zones. On 18 November, 1883, the US and Canadian railroad industries adopted Fleming's idea, but because of the sheer size of the North American continent, they (13) ___ : Eastern, Central, Mountain and Pacific time – each of which remain relatively unchanged to this day.\nIn North America, local towns and cities, eager for the prosperity and opportunities brought by the railroad, (14) ___ The US federal government, however, was a bit slower and fully adopted these new time zones in only in 1918."
+        },
+        {
+          "id": "3",
+          "instruction": "Read this article about bothies and then read the statements (15-22) following it. Mark a sentence A if it is true according to the article. Mark it B if it is false. Mark it C if there isn't enough information in the text to decide if the sentence is true or not.",
+          "type": "true_false",
+          "multi_select": false,
+          "shared_options": [
+            "A. True",
+            "B. False"
+          ],
+          "items": [
+            {
+              "id": "15",
+              "prompt": "Travel agencies are welcome to use bothies as accommodation for their clients."
+            },
+            {
+              "id": "16",
+              "prompt": "Bothies used to have different functions before they provided shelter for hikers."
+            },
+            {
+              "id": "17",
+              "prompt": "In the early 20th century, many houses in remote areas were abandoned."
+            },
+            {
+              "id": "18",
+              "prompt": "Maintenance work in the bothies is done twice a month."
+            },
+            {
+              "id": "19",
+              "prompt": "When staying in bothies, hikers should provide kitchen utensils for themselves."
+            },
+            {
+              "id": "20",
+              "prompt": "Hikers can never know who to expect to share a bothy with."
+            },
+            {
+              "id": "21",
+              "prompt": "Hikers are advised to take a tent because there might be too many people in the bothy."
+            },
+            {
+              "id": "22",
+              "prompt": "Overseas hikers welcomed the sharing of the bothies' locations."
+            }
+          ],
+          "max_points": 8,
+          "notes": "THE UK'S NETWORK OF FREE HIKING 'HOTELS'\nFounded in 1965, the Mountain Bothy Association is a registered charity that maintains bothies: \"simple shelters in remote country for the use of all who love wild and lonely places\". The organisation manages more than a hundred bothies in Scotland, Wales and Northern England. The system is simple. Bothies are free to use and open to anyone. They can't be booked in advance, and groups of six or more and commercial groups are asked not to use them. As long as you respect other users, the bothy and its surroundings, you're welcome.\nEvery bothy is an adapted building with a previous life. Most are old shepherd's huts, sheds, farmsteads or workers' accommodation. In the early 20th century, hill farming declined and fewer and fewer people lived in remote locations, leaving many buildings behind. After World War Two, hiking and mountaineering as leisure pursuits dramatically increased in popularity and those exploring the outdoors began using these abandoned buildings as shelters.\nKeeping the buildings habitable is all done by volunteers; however, bothies are by no means luxurious. You won't find electricity or running water and will be lucky to have a long-drop toilet. Most will have a stove, but there's no guarantee a supply of fuel will be there – not to mention any kitchenware. You should pack as if you're camping, including a tent in case the bothy is overcrowded or you don't fancy the company.\nThe company you find in bothies, and the fact that it's completely unpredictable, is one of their unique attractions, according to hikers. In a world where everything is bookable and controllable, you just have to go and turn up, and you could have it all to yourself or you could meet some incredible people and connect with them.\nIn 2009, the locations of the bothies were shared online by the association so that more hikers can find them, which wasn't a unanimously popular move. Part of the hikers' concern was that the people might begin using these spaces as places to party instead of using them for a shelter while enjoying outdoor pursuits."
+        },
+        {
+          "id": "4",
+          "instruction": "Read this article about ‘misokinesia', a phenomenon also called 'the hatred of movements'. Some sentences have been left out from the text. Your task is to reconstruct the text by filling in the gaps (23-29) from the list (A-K) below.",
+          "type": "fill_in",
+          "multi_select": false,
+          "shared_options": [
+            "A) She says both conditions are surprisingly common, but misokinesia had been little studied by scientists until recent years.",
+            "B) To their surprise, they found no behaviour difference between the groups.",
+            "D) Some people might get rather annoyed by fidgeting or repetitive movements, but it doesn't impact their day-to-day life massively.",
+            "E) Others may withdraw and try to avoid people entirely.",
+            "F) These nerve cells activate when we move but they also activate when we see others move.",
+            "G) This means an intense dislike of other people's noises, such as heavy breathing or loud eating.",
+            "H) The reality that one of three people can't stand fidgeting is worth considering when designing business buildings and public venues.",
+            "I) A recent Canadian study suggests that this unusual phenomenon is much more common than we realized.",
+            "K) Moreover, they found that symptoms of misokinesia intensified in adults."
+          ],
+          "items": [
+            {
+              "id": "23",
+              "prompt": "The severity of people's reaction to irritating movements varies. (23) ___ Others, however, may get a very strong emotional reaction – anger, panic or distress -and just can't filter them out."
+            },
+            {
+              "id": "24",
+              "prompt": "One common way people try to manage the condition is by avoiding looking at fidgeting or by distracting themselves. (24) ___ A lot of sufferers feel ashamed that they get such strong reactions, which can be a problem in itself, because suppressing your emotions can intensify them and make them worse."
+            },
+            {
+              "id": "25",
+              "prompt": "Misokinesia sufferers often report some overlap with the sound-sensitivity of misophonia. (25) ___ Dr Jane Gregory, a clinical psychologist, who has been studying both misokinesia and misophonia, told the BBC that the two go alongside each other frequently."
+            },
+            {
+              "id": "26",
+              "prompt": "(26) ___ However, misophonia is a more recognized disorder. Obviously, people have also been experiencing misokinesia for a long time but just didn't have a name for it."
+            },
+            {
+              "id": "27",
+              "prompt": "(27) ___ Across a series of experiments involving over 4,100 participants, researchers concluded that one in three people might be affected by misokinesia, which causes them intense feelings of rage and disgust."
+            },
+            {
+              "id": "28",
+              "prompt": "(28) ___ This explains a lot about why teenagers who twirl their hair or pick their nails annoy the rest of us."
+            },
+            {
+              "id": "29",
+              "prompt": "The findings thus confirm that a large segment of the general population may have a visual-social sensitivity that has received little formal recognition so far. (29) ___ Misokinesia could explain why open office plans often do not work out well."
+            }
+          ],
+          "max_points": 7,
+          "notes": "'MISOKINESIA' MAY AFFECT 1 IN 3 PEOPLE, RESEARCH SHOWS\nMisokinesia is the reduced tolerance of others' repetitive bodily movements. Misokinesia sufferers can have an intense biological and emotional reaction to other people tapping their fingers, clicking a pen or twiddling their hair. Other common triggers are leg and foot movements, for instance, jiggling thighs or shuffling shoes.\nThe severity of people's reaction to irritating movements varies. (23) ___ Others, however, may get a very strong emotional reaction – anger, panic or distress -and just can't filter them out.\nOne common way people try to manage the condition is by avoiding looking at fidgeting or by distracting themselves. (24) ___ A lot of sufferers feel ashamed that they get such strong reactions, which can be a problem in itself, because suppressing your emotions can intensify them and make them worse.\nMisokinesia sufferers often report some overlap with the sound-sensitivity of misophonia. (25) ___ Dr Jane Gregory, a clinical psychologist, who has been studying both misokinesia and misophonia, told the BBC that the two go alongside each other frequently.\n(26) ___ However, misophonia is a more recognized disorder. Obviously, people have also been experiencing misokinesia for a long time but just didn't have a name for it.\n(27) ___ Across a series of experiments involving over 4,100 participants, researchers concluded that one in three people might be affected by misokinesia, which causes them intense feelings of rage and disgust. (28) ___ This explains a lot about why teenagers who twirl their hair or pick their nails annoy the rest of us.\nThe findings thus confirm that a large segment of the general population may have a visual-social sensitivity that has received little formal recognition so far. (29) ___ Misokinesia could explain why open office plans often do not work out well."
+        }
+      ]
+    },
+    {
+      "id": "nyelvhelyesseg",
+      "title": "Nyelvhelyesség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "You are going to read an article about the world-famous actress Maggie Smith. Some words are missing from the text. Use the words in brackets to form the words that fit in the gaps (1-9). Then write the appropriate form of these words on the lines after the text. There might be cases when you do not have to change the word in brackets. Use only one word for each gap.",
+          "type": "short_answer",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Maggie Smith, the fascinating, multi-award-winning actor described by peers as (1) ___ (be) \"one of a kind\" and possessed of great intelligence, humour and (2) ___ (exception) talent, has died aged 89."
+            },
+            {
+              "id": "2",
+              "prompt": "Maggie Smith, the fascinating, multi-award-winning actor described by peers as (1) ___ (be) \"one of a kind\" and possessed of great intelligence, humour and (2) ___ (exception) talent, has died aged 89."
+            },
+            {
+              "id": "3",
+              "prompt": "Her work, which ranged from The Prime of Miss Jean Brodie through Harry Potter to Downton Abbey, brought her global (3) ___ (appreciate), as well as two Oscars and eight Baftas."
+            },
+            {
+              "id": "4",
+              "prompt": "Hugh Bonneville, who appeared alongside Smith in Downton Abbey, said: “Anyone who ever shared a scene with Maggie will never forget her sharp eye, sharp wit and (4) ___ (stand) talent."
+            },
+            {
+              "id": "5",
+              "prompt": "She was a true legend and thankfully will live on in so many (5) ___ (stun) screen performances.”"
+            },
+            {
+              "id": "6",
+              "prompt": "King Charles and Queen Camilla also paid tribute, saying: “As the curtain comes down on a national treasure, we join all those around the world who remember with the fondest (6) ___ (admire) and affection her many great performances, and her (7) ___ (warm) and wit that shone through both off and on the stage.\""
+            },
+            {
+              "id": "7",
+              "prompt": "King Charles and Queen Camilla also paid tribute, saying: “As the curtain comes down on a national treasure, we join all those around the world who remember with the fondest (6) ___ (admire) and affection her many great performances, and her (7) ___ (warm) and wit that shone through both off and on the stage.\""
+            },
+            {
+              "id": "8",
+              "prompt": "Daniel Radcliffe, who starred in the Harry Potter series, said: “I will always consider (8) ___ (I) amazingly lucky to have been able to work with her."
+            },
+            {
+              "id": "9",
+              "prompt": "The word legend is (9) ___ (use) but if it applies to anyone in our industry then it applies to her. Thank you Maggie.\""
+            }
+          ],
+          "max_points": 9,
+          "notes": "THE LEGENDARY MAGGIE SMITH DIES AGED 89\nMaggie Smith, the fascinating, multi-award-winning actor described by peers as (1) ___ (be) \"one of a kind\" and possessed of great intelligence, humour and (2) ___ (exception) talent, has died aged 89.\nHer work, which ranged from The Prime of Miss Jean Brodie through Harry Potter to Downton Abbey, brought her global (3) ___ (appreciate), as well as two Oscars and eight Baftas.\nTributes were paid by countless friends and colleagues.\nHugh Bonneville, who appeared alongside Smith in Downton Abbey, said: “Anyone who ever shared a scene with Maggie will never forget her sharp eye, sharp wit and (4) ___ (stand) talent. She was a true legend and thankfully will live on in so many (5) ___ (stun) screen performances.”\nKing Charles and Queen Camilla also paid tribute, saying: “As the curtain comes down on a national treasure, we join all those around the world who remember with the fondest (6) ___ (admire) and affection her many great performances, and her (7) ___ (warm) and wit that shone through both off and on the stage.\"\nDaniel Radcliffe, who starred in the Harry Potter series, said: “I will always consider (8) ___ (I) amazingly lucky to have been able to work with her. The word legend is (9) ___ (use) but if it applies to anyone in our industry then it applies to her. Thank you Maggie.\""
+        },
+        {
+          "id": "2",
+          "instruction": "You are going to read an article about the history of jack-o'-lanterns. Some words are missing from the text. Choose the most appropriate answer from the options (A-D) for each gap (10-17) in the text.",
+          "type": "multiple_choice",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "10",
+              "prompt": "Their origin (10) ___ an Irish myth about Stingy Jack, who tricked the Devil for his own monetary gain.",
+              "options": [
+                "A) was born",
+                "B) originates",
+                "C) comes from",
+                "D) brings about"
+              ]
+            },
+            {
+              "id": "11",
+              "prompt": "When Jack died, God (11) ___ him into heaven, and the Devil didn't let him into hell, (12) ___ Jack was sentenced to wander the earth for eternity.",
+              "options": [
+                "A) refused",
+                "B) didn't allow",
+                "C) banned",
+                "D) didn't approve"
+              ]
+            },
+            {
+              "id": "12",
+              "prompt": "When Jack died, God (11) ___ him into heaven, and the Devil didn't let him into hell, (12) ___ Jack was sentenced to wander the earth for eternity.",
+              "options": [
+                "A) however",
+                "B) but",
+                "C) so",
+                "D) afterwards"
+              ]
+            },
+            {
+              "id": "13",
+              "prompt": "In Ireland, people started to carve demonic faces out of turnips to frighten away Jack's wandering soul. (13) ___ Irish immigrants moved to the U.S., they began making jack-o'-lanterns from pumpkins.",
+              "options": [
+                "A) When",
+                "B) Initially",
+                "C) Though",
+                "D) Meanwhile"
+              ]
+            },
+            {
+              "id": "14",
+              "prompt": "Halloween is based on the Celtic festival Samhain, a celebration in ancient Britain and Ireland (14) ___ marked the end of summer and the beginning of the new year on November 1.",
+              "options": [
+                "A) where",
+                "B) what",
+                "C) had",
+                "D) that"
+              ]
+            },
+            {
+              "id": "15",
+              "prompt": "It was believed that during Samhain the souls of those who had died that year traveled to the otherworld and that other souls (15) ___ to visit their homes.",
+              "options": [
+                "A) that appear",
+                "B) would return",
+                "C) are about",
+                "D) will come back"
+              ]
+            },
+            {
+              "id": "16",
+              "prompt": "In the 8th century CE, the Roman Catholic Church moved All Saints' Day, a day (16) ___ the church's saints, to November 1.",
+              "options": [
+                "A) invited by",
+                "B) reminding",
+                "C) cared for",
+                "D) celebrating"
+              ]
+            },
+            {
+              "id": "17",
+              "prompt": "Traditions from Samhain remained, such as (17) ___ disguises to hide yourself from the souls wandering around your home.",
+              "options": [
+                "A) regards",
+                "B) wearing",
+                "C) having made",
+                "D) decorate"
+              ]
+            }
+          ],
+          "max_points": 8,
+          "notes": "WHY DO WE CARVE PUMPKINS AT HALLOWEEN?\nThe jack-o'-lantern has a long history with Halloween, although our favorite demonic faces haven't always been cut out of pumpkins.\nTheir origin (10) ___ an Irish myth about Stingy Jack, who tricked the Devil for his own monetary gain. When Jack died, God (11) ___ him into heaven, and the Devil didn't let him into hell, (12) ___ Jack was sentenced to wander the earth for eternity. In Ireland, people started to carve demonic faces out of turnips to frighten away Jack's wandering soul. (13) ___ Irish immigrants moved to the U.S., they began making jack-o'-lanterns from pumpkins.\nBut how did jack-o'-lanterns become associated with Halloween? Halloween is based on the Celtic festival Samhain, a celebration in ancient Britain and Ireland (14) ___ marked the end of summer and the beginning of the new year on November 1. It was believed that during Samhain the souls of those who had died that year traveled to the otherworld and that other souls (15) ___ to visit their homes.\nIn the 8th century CE, the Roman Catholic Church moved All Saints' Day, a day (16) ___ the church's saints, to November 1. This meant that All Hallows' Eve (or Halloween) fell on October 31. Traditions from Samhain remained, such as (17) ___ disguises to hide yourself from the souls wandering around your home. The folklore about Stingy Jack was quickly incorporated into Halloween, and we've been carving pumpkins – or turnips – ever since."
+        },
+        {
+          "id": "3",
+          "instruction": "You are going to read an article about an Australian ecological project. Some words are missing from the text. Your task is to write the missing words on the dotted lines (18-25) after the text. Use only one word in each gap.",
+          "type": "short_answer",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "18",
+              "prompt": "The City of Melbourne's Urban Forest and Ecology Team created an interactive map that allows you to (18) ___ out about any tree in the city."
+            },
+            {
+              "id": "19",
+              "prompt": "This map, called Urban Forest Visual, (19) ___ you click on any tree in the Melbourne area and provides information about the species."
+            },
+            {
+              "id": "20",
+              "prompt": "Each tree has (20) ___ own ID number and email address."
+            },
+            {
+              "id": "21",
+              "prompt": "The purpose of the email was for members of the public to inform the council of any trees that needed attention, (21) ___ as a tree declining in health."
+            },
+            {
+              "id": "22",
+              "prompt": "This is due to the tree's aesthetic value, its contribution (22) ___ the landscape and its presence as an outstanding example (23) ___ its species."
+            },
+            {
+              "id": "23",
+              "prompt": "This is due to the tree's aesthetic value, its contribution (22) ___ the landscape and its presence as an outstanding example (23) ___ its species."
+            },
+            {
+              "id": "24",
+              "prompt": "\"Hi tree on the corner of Punt Road and Alexandra Avenue,” says one writer. “I've always wondered about you ever (24) ___ my slightly strange driving instructor (who always smelled like cat food and peppermints) told me you were his favourite tree.\""
+            },
+            {
+              "id": "25",
+              "prompt": "It's (25) ___ just people in Melbourne writing to the trees. The trees have received emails from people all over the world."
+            }
+          ],
+          "max_points": 8,
+          "notes": "EMAIL THE TREES OF MELBOURNE\nThe City of Melbourne's Urban Forest and Ecology Team created an interactive map that allows you to (18) ___ out about any tree in the city. This map, called Urban Forest Visual, (19) ___ you click on any tree in the Melbourne area and provides information about the species. Each tree has (20) ___ own ID number and email address.\nThe purpose of the email was for members of the public to inform the council of any trees that needed attention, (21) ___ as a tree declining in health. However, since its launch in 2013, people have used the emails to send love letters and fan mail instead.\nAccording to the team, the most popular tree is a Golden Elm on Punt Road. This tree is about 80 years old, and is listed by the National Trust of Australia as a Significant Tree at a state level. This is due to the tree's aesthetic value, its contribution (22) ___ the landscape and its presence as an outstanding example (23) ___ its species.\n\"Hi tree on the corner of Punt Road and Alexandra Avenue,” says one writer. “I've always wondered about you ever (24) ___ my slightly strange driving instructor (who always smelled like cat food and peppermints) told me you were his favourite tree.\"\nIt's (25) ___ just people in Melbourne writing to the trees. The trees have received emails from people all over the world."
+        },
+        {
+          "id": "4",
+          "instruction": "You are going to read an article about a family that live in the middle of a roundabout. In most lines there is one word that should not be there. It is either grammatically incorrect or does not fit in with the sense of the text. Read the text and then copy the extra word in the space provided after each line. Some lines may be correct. Indicate the correct line(s) with a tick (✓).",
+          "type": "short_answer",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "26",
+              "prompt": "For more than 60 years, the property has been home as to the Howatson"
+            },
+            {
+              "id": "27",
+              "prompt": "family. They moved in in 1960 and have refused to leave when Denbigh's"
+            },
+            {
+              "id": "28",
+              "prompt": "new bypass was built in the late 1970s. Instead, the roundabout on Rhyl"
+            },
+            {
+              "id": "29",
+              "prompt": "Road was built around them. The family even though have chickens living"
+            },
+            {
+              "id": "30",
+              "prompt": "alongside them - with the road-crossing hens a regular on sight. The hens"
+            },
+            {
+              "id": "31",
+              "prompt": "have been navigating the busy roundabout for 20 years, and only two have"
+            },
+            {
+              "id": "32",
+              "prompt": "been killed by cars. The present owner, Clwyd Howatson, has already"
+            },
+            {
+              "id": "33",
+              "prompt": "lived at the property for most of his own life. He claims that living on a"
+            },
+            {
+              "id": "34",
+              "prompt": "roundabout is not too different from having both a house on a busy road."
+            },
+            {
+              "id": "35",
+              "prompt": "Double glazing ensures noise levels inside is minimal and the road only"
+            }
+          ],
+          "max_points": 10,
+          "notes": "LIVING IN THE MIDDLE OF A ROUNDABOUT\nIt's a sight that leaves thousands of motorists scratching their heads every single day - a house all right in the middle of a busy Welsh roundabout.\n26) For more than 60 years, the property has been home as to the Howatson\n27) family. They moved in in 1960 and have refused to leave when Denbigh's\n28) new bypass was built in the late 1970s. Instead, the roundabout on Rhyl\n29) Road was built around them. The family even though have chickens living\n30) alongside them - with the road-crossing hens a regular on sight. The hens\n31) have been navigating the busy roundabout for 20 years, and only two have\n32) been killed by cars. The present owner, Clwyd Howatson, has already\n33) lived at the property for most of his own life. He claims that living on a\n34) roundabout is not too different from having both a house on a busy road.\n35) Double glazing ensures noise levels inside is minimal and the road only gets really busy at morning and evening rush hours."
+        }
+      ]
+    },
+    {
+      "id": "hallott",
+      "title": "Hallott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "In this section, you will listen to the story of the famous Kon-Tiki expedition. Your task is to complete the sentences with two words indicated by the gaps, using the exact words you hear in the recording.",
+          "type": "short_answer",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "The expedition tried to demonstrate that it was possible for ancient South American people to colonize Polynesia ___ wooden rafts."
+            },
+            {
+              "id": "2",
+              "prompt": "Heyerdahl's team built the Kon-Tiki raft using simple ___ and ___ techniques."
+            },
+            {
+              "id": "3",
+              "prompt": "The Kon-Tiki crew had to face the challenges of the crossing with limited ___ and a lot of ___."
+            },
+            {
+              "id": "4",
+              "prompt": "During the trip across the Pacific, the crew also had to face problems with the weather, such as ___ and with dangerous animals in the sea such as ___."
+            },
+            {
+              "id": "5",
+              "prompt": "The Kon-Tiki reached the shores of the Tuamotu Islands, ___ that this voyage was ___."
+            },
+            {
+              "id": "6",
+              "prompt": "The success of the expedition led to the publication of an award winning ___ and a(n) ___."
+            },
+            {
+              "id": "7",
+              "prompt": "However, despite the success of the expedition, some ___ warned that one should be extremely sceptical of Heyerdahl's ___."
+            },
+            {
+              "id": "8",
+              "prompt": "According to these experts, it was more likely that the ___ was true: people from the Pacific islands populated South America."
+            },
+            {
+              "id": "9",
+              "prompt": "Decades later, DNA ___ found that Polynesians have more ___ with people from South East Asia."
+            }
+          ],
+          "max_points": 9,
+          "notes": "The Kon-Tiki expedition was led by Thor Heyerdahl."
+        },
+        {
+          "id": "2",
+          "instruction": "In this section, you will listen to a recording about the relationship between Mozart and Haydn. Your task will be to circle the letter(s) of the correct answer(s) in the boxes on the right. Please note that in this task both answers may be correct. However, there is always at least one correct answer. This means you might have to circle one or two letters.",
+          "type": "multiple_choice",
+          "multi_select": true,
+          "items": [
+            {
+              "id": "10",
+              "prompt": "Haydn ...",
+              "options": [
+                "A) realized that Mozart was an outstandingly gifted musician.",
+                "B) said that Mozart was the only person in Europe who understood his music."
+              ]
+            },
+            {
+              "id": "11",
+              "prompt": "Haydn and Mozart ....",
+              "options": [
+                "A) were both famous when they first met.",
+                "B) mutually influenced each other."
+              ]
+            },
+            {
+              "id": "12",
+              "prompt": "Mozart's ...",
+              "options": [
+                "A) symphonies and string quartets show the signs of Haydn's influence.",
+                "B) later works use innovations introduced by Haydn."
+              ]
+            },
+            {
+              "id": "13",
+              "prompt": "The Haydn Quartets ...",
+              "options": [
+                "A) is a set of six string quartets.",
+                "B) was dedicated to Haydn by Mozart."
+              ]
+            },
+            {
+              "id": "14",
+              "prompt": "Mozart and Haydn ...",
+              "options": [
+                "A) were both members of an amateur string quartet.",
+                "B) co-wrote some chamber music pieces as a result of their practical collaboration."
+              ]
+            },
+            {
+              "id": "15",
+              "prompt": "Haydn ...",
+              "options": [
+                "A) never commented on Mozart publicly before his death.",
+                "B) became a keen supporter of Mozart's musical legacy."
+              ]
+            },
+            {
+              "id": "16",
+              "prompt": "The relationship between Mozart and Haydn ...",
+              "options": [
+                "A) became a bit less friendly before Mozart's death.",
+                "B) had a strong influence on the history of classical music."
+              ]
+            }
+          ],
+          "max_points": 7,
+          "notes": "Mozart and Haydn had a relationship that was A) both personal and professional. B) characterized by mutual respect and admiration."
+        },
+        {
+          "id": "3",
+          "instruction": "In this section, you will hear about a moving painting by the British painter, Edwin Henry Landseer. Your task will be to decide whether the following statements are true, false or we do not know because the text does not say, and write the appropriate letter in the boxes on the right. Write A if the statement is true, write B if the statement is false, and write C if the text does not say.",
+          "type": "true_false",
+          "multi_select": false,
+          "shared_options": [
+            "A. True",
+            "B. False"
+          ],
+          "items": [
+            {
+              "id": "17",
+              "prompt": "Mr. Peter McGuinn is the director of the museum."
+            },
+            {
+              "id": "18",
+              "prompt": "It is the first time the woman has seen the painting he has chosen."
+            },
+            {
+              "id": "19",
+              "prompt": "This painting has been exhibited in the museum ever since it was painted."
+            },
+            {
+              "id": "20",
+              "prompt": "The dog in the painting used to belong to the dead man in the coffin."
+            },
+            {
+              "id": "21",
+              "prompt": "Landseer was an old friend of the dead man in the coffin."
+            },
+            {
+              "id": "22",
+              "prompt": "Landseer's use of light and shadow emphasizes the topic of loss and devotion."
+            },
+            {
+              "id": "23",
+              "prompt": "The personal objects in the room show that the dead man lived a rather modest life."
+            },
+            {
+              "id": "24",
+              "prompt": "There are several more paintings in the museum by Landseer, mostly featuring animals."
+            },
+            {
+              "id": "25",
+              "prompt": "This painting is so popular because it emphasizes the importance of human-animal bonds."
+            }
+          ],
+          "max_points": 9,
+          "notes": "The Victoria and Albert Museum is the largest museum in London."
+        }
+      ]
+    },
+    {
+      "id": "iras",
+      "title": "Íráskészség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "You have always wanted to visit a Caribbean island and you have found the following advertisement. Since you are an animal lover, you think that volunteering in a sanctuary might be a good opportunity to stay on the island of Bonaire free: ... Write an email of 120-150 words to Mr. Koopman in which you introduce yourself and say which type of job (animal care, tourist guide or both) you are interested in and why, specify how long you would like to stay and which months suit you best, ask three questions about any details of this opportunity you are interested in. Begin your email like this: Dear Mr Koopman,",
+          "type": "essay",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Write an email of 120-150 words to Mr. Koopman in which you:\n• introduce yourself and say which type of job (animal care, tourist guide or both) you are interested in and why,\n• specify how long you would like to stay and which months suit you best,\n• ask three questions about any details of this opportunity you are interested in.\nBegin your email like this: Dear Mr Koopman,"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Donkey Sanctuary Bonaire\nWe are looking for volunteers!\nDo you love animals, are you not afraid of getting dirty and sweaty? You may want to help us as a volunteer! We are a family-run sanctuary providing a protected life for sick, injured and orphaned donkeys.\nYou are expected to:\n• be between 17 and 50 years old (fit & in good health)\n• come and help us for at least 6 weeks, because it takes time to settle in and to let the donkeys get used to you\n• help out 5 days a week, from 7:30 AM to 5:00 PM\n• speak English\nYou do not need to have any experience in animal care, but you should like donkeys and be willing to learn.\nWe offer you:\n• a choice of jobs: you can help to take care of the donkeys AND/OR receive tourists in the tourist center and lead guided tours in the donkey park\n• free accommodation in simple but fully equipped houses in the middle of the site\n• the possibility to come in pairs, if you have a friend who also wants to work as a volunteer\n• insurance for your full stay and half board free on weekdays\nAre you interested and would you like to know more?\nPlease contact Ed Koopman, staff officer: info@donkeysanctuary.com\nWord limit: 120-150 words."
+        },
+        {
+          "id": "2",
+          "instruction": "You have received the following email from your friend Karl. ... Write an email of 200-250 words to Karl in which you write about whether you consider using his cousin's paper cheating in the competition, whether it is possible to have fair competitions in the era of the Internet and AI, what kind of help you think it is acceptable to use in situations like this, what you would do if you were in his shoes. Start your email like this: Hi Karl,",
+          "type": "essay",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Write an email of 200-250 words to Karl in which you write about:\n• whether you consider using his cousin's paper cheating in the competition,\n• whether it is possible to have fair competitions in the era of the Internet and AI,\n• what kind of help you think it is acceptable to use in situations like this,\n• what you would do if you were in his shoes.\nStart your email like this: Hi Karl,"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Karl's email:\nHi,\nI haven't heard from you in a while, and I've found myself in a bit of a situation I would appreciate your opinion on.\nYou know we've got our Geography competition coming up and as part of it, I have to hand in an assignment about a chosen topic – volcanoes, yay! – that I'm supposed to write all on my own, do the research, summarise my findings, etc. You know me, I'm a procrastinator, and as you can imagine, I haven't even started working on it yet. Yesterday, we had a big family lunch on my grandma's birthday, where I told everyone what I was supposed to be working on, and to my surprise, my cousin Ove told me he had written a paper on the same topic in the previous semester at university. He offered to send it over to me, suggested that I should change a few things – including the name of the author, of course - and hand it in.\nThe deadline is coming up, and I'm starting to panic. I won't be able to do the research properly before then anyway, so I'm leaning towards accepting it. It's a university paper, after all, how cool would it be to use some parts of it... or maybe the whole thing? No one would find out, I'm sure, and everyone would do the same if they had the chance or have chat GPT write their essay in the first place. What do you say? Is it cheating if I'm doing it with my cousin's consent?\nKarl\nWord limit: 200-250 words."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "sections": [
+    {
+      "id": "olvasott",
+      "title": "I. Olvasott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "In the following text about using a dishwasher, the first sentence of each paragraph has been removed. Your task is to match the sentences to the paragraphs. Write the letters of the sentences (A-I) next to the appropriate numbers (1-6). There are two extra sentences that you do not need.",
+          "type": "matching",
+          "multi_select": false,
+          "shared_options": [
+            "A) The dishwasher detergent works best in soft water, so salt can help you get better cleaning.",
+            "B) The most powerful jets in a dishwasher shoot upwards from the bottom.",
+            "D) Depending on how many washes you do, you might have to fill up the rinse aid every few weeks.",
+            "E) A full dishwasher dries better than a half-full dishwasher.",
+            "F) Anything fragile, handmade or hand-painted should be left out.",
+            "G) The dishwasher detergent is pretty nasty stuff.",
+            "H) You do not need to pre-rinse, just scrape the solids into the bin.",
+            "I) Despite all the warnings, dishwashers are not only the convenient answer to our modernist needs, they're actually more economical than hand washing."
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Most dishwashers have inbuilt sensors that measure how much dirt is in the water from the first cycle. Rinsed plates may fool the system, and your dishwasher's going to think that your plates are cleaner than they actually are, so it won't wash as intensely, and they might actually come out dirtier."
+            },
+            {
+              "id": "2",
+              "prompt": "Remember to stack the dirtiest items on the lower shelf and the cleaner items above. This is also why your bowls, containers and cutlery should face down."
+            },
+            {
+              "id": "3",
+              "prompt": "During the final rinse cycle, a heat load is built up on the dishes, and then it just sits there for a while and the moisture will evaporate. The more the dishes, the more the heat, the better the result."
+            },
+            {
+              "id": "4",
+              "prompt": "You really don't want to get it on your hands. Dishwashers need aggressive chemicals to get the job done without mechanical scrubbing. Many materials, however, won't survive a high-pH hurricane every night, so anything that is older than the dishwasher, like grandma's china, shouldn't go in one."
+            },
+            {
+              "id": "5",
+              "prompt": "The same goes for wood, bone, copper, non-stick coated pans and trays. Anything laminated can be twisted out of shape; anything glued can come apart; chefs' knives will rust and dull."
+            },
+            {
+              "id": "6",
+              "prompt": "A dishwasher can clean 144 items with roughly 13 litres of water. Hand washing the same load uses, on average, 100 litres of water. Most of the energy that goes into running your dishwasher is actually heating the water, and it's the same for hand washing, so much less water in dishwashing means much less energy."
+            }
+          ],
+          "max_points": 6,
+          "notes": "Text title: HOW TO PROPERLY LOAD A DISHWASHER"
+        },
+        {
+          "id": "2",
+          "instruction": "Read this article about climate anxiety, then read the statements (7-14) following it. Mark a sentence A if it is true according to the article. Mark it B if it is false. Mark it C if there isn't enough information in the text to decide if the sentence is true or not.",
+          "type": "true_false",
+          "multi_select": false,
+          "shared_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "items": [
+            {
+              "id": "7",
+              "prompt": "Several surveys are being carried out parallelly right now."
+            },
+            {
+              "id": "8",
+              "prompt": "In each country, 1,000 young people were asked to take part in the survey."
+            },
+            {
+              "id": "9",
+              "prompt": "The majority of participants find climate change concerning."
+            },
+            {
+              "id": "10",
+              "prompt": "More than half of the respondents said that climate change had a direct effect on their everyday lives."
+            },
+            {
+              "id": "11",
+              "prompt": "There is no connection between the extent to which a country is impacted by climate change and the attitude of its residents."
+            },
+            {
+              "id": "12",
+              "prompt": "Young people's views are often neglected."
+            },
+            {
+              "id": "13",
+              "prompt": "How young people feel about climate change is widely researched."
+            },
+            {
+              "id": "14",
+              "prompt": "Although young people appreciate when governments step up, most of them are dissatisfied with their attitude to climate change."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: YOUNG PEOPLE'S CLIMATE ANXIETY REVEALED IN LANDMARK SURVEY\nText content: \"Climate change is causing distress, anger or even anxiety in teenagers and young people worldwide, a survey of thousands of 16- to 25-year-olds has found.\n\"This study provides arguments for adults that climate change plays an important role in young people's mental health,” says Sarah Ray, who studies climate anxiety at Humboldt State University in Arcata, California. The survey — the largest of its kind — asked 10,000 young people in 10 countries how they felt about climate change and government responses to it.\nThe results, released in September 2021, found that most respondents were concerned about climate change, with nearly 60% saying they felt ‘very worried’ or ‘extremely worried’. Many associated negative emotions with climate change — the most commonly chosen were 'sad', 'afraid', 'anxious', 'angry' and 'powerless'. Overall, 45% of participants said their feelings about climate change impacted their daily lives.\nThe countries with the highest proportion of respondents who felt 'very worried' or 'extremely worried' by climate change were the Philippines (84%), India (68%) and Brazil (67%), nations that have been hard-hit by climate change. Portugal — where wildfires are becoming increasingly severe — also had a high level of 'very worried' or 'extremely worried' respondents (65%).\nAmong those who said they have talked to others about climate change (81%), nearly half reported being ignored. “There seems to be a dismissal of young people's opinions in society,” says study co-author Caroline Hickman, a climate-psychology researcher at the University of Bath, UK. Until now, there has been little research on the psychological impacts of climate change on young people, she adds.\nWhen asked about how governments are responding to climate change, 65% of respondents agreed with the statement that governments are failing young people, 64% agreed that they are lying about the impact of actions taken and 60% agreed they were dismissing people's distress. Only 36% agreed that governments are acting according to science. However, young people do feel reassured when governments act.\n“I think this research will impact more audiences than other arguments about why we should do more on climate,” Ray says.\""
+        },
+        {
+          "id": "3",
+          "instruction": "Read this article about what happens to your brain when you give up sugar. Some parts of sentences have been left out from the text. Your task is to reconstruct the text by filling in the gaps (15-22) from the list (A-L) below. Remember that there are two extra letters that you do not need.",
+          "type": "fill_in",
+          "multi_select": false,
+          "shared_options": [
+            "A) being added to foods",
+            "B) sticking to it is key",
+            "D) giving up sugar can feel unpleasant",
+            "E) having a sweet tooth",
+            "F) surprising to see negative effects",
+            "G) studying the effects of quitting sugar altogether",
+            "H) understanding of the dangers",
+            "I) being able to get through",
+            "K) including reduced calorie intake",
+            "L) experiencing headaches, fatigue or mood changes"
+          ],
+          "items": [
+            {
+              "id": "15",
+              "prompt": "A greater ___ of eating too much sugar on our health may also be among the reasons."
+            },
+            {
+              "id": "16",
+              "prompt": "Reducing sugar intake has clear health benefits, ___ which can help with weight loss and improved dental health."
+            },
+            {
+              "id": "17",
+              "prompt": "But people sometimes report negative side effects when they try to eat less sugar, like ___."
+            },
+            {
+              "id": "18",
+              "prompt": "As mass production of food has become the norm, sugar is now ___ to make them more tasty."
+            },
+            {
+              "id": "19",
+              "prompt": "That's why it's not ___ when we eat less sugar or remove it from our diet completely."
+            },
+            {
+              "id": "20",
+              "prompt": "That's why ___ which may make it difficult for some to stick with the diet change."
+            },
+            {
+              "id": "21",
+              "prompt": "If you want to reduce sugar from your diet long term, ___ the first few difficult weeks is crucial."
+            },
+            {
+              "id": "22",
+              "prompt": "And that with any dietary change, ___."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: WHAT HAPPENS TO YOUR BRAIN WHEN YOU GIVE UP SUGAR\nText content: \"Sugar consumption in developed countries has been steadily (0) decreasing over the past decade. This could be happening for a number of reasons, such as a shift in tastes and lifestyles, with the popularity of low-carbohydrate diets increasing in the past decade. A greater (15) ___ of eating too much sugar on our health may also be among the reasons.\nReducing sugar intake has clear health benefits, (16) ___ which can help with weight loss and improved dental health. But people sometimes report negative side effects when they try to eat less sugar, like (17) ___. The reason for these side effects is currently poorly understood. But it's likely these symptoms relate to how the brain reacts when exposed to sugary foods.\nAs mass production of food has become the norm, sugar is now (18) ___ to make them more tasty. However, sugar has profound biological effects in the brain. It activates sweet taste receptors in the mouth, which leads to the release of a chemical called dopamine in the brain – also known as the “feel-good” hormone.\nIt's obvious that sugar can have a powerful effect on us. That's why it's not (19) ___ when we eat less sugar or remove it from our diet completely. It's during this early \"sugar withdrawal” stage that both mental and physical symptoms have been reported – including depression, anxiety, headaches, and dizziness. That's why (20) ___ which may make it difficult for some to stick with the diet change.\nIf you want to reduce sugar from your diet long term, (21) ___ the first few difficult weeks is crucial. It's important to also acknowledge, however, that sugar isn't “bad” in itself – but that it should be eaten in moderation alongside a healthy diet. And that with any dietary change, (22) ___.\""
+        },
+        {
+          "id": "4",
+          "instruction": "Read this article about a man with an interesting hobby. Some paragraphs have been left out from the text. Your task is to reconstruct the text by filling in the gaps (23-27) from the list (A-H) below. Remember that there are two extra letters that you do not need.",
+          "type": "matching",
+          "multi_select": false,
+          "shared_options": [
+            "A) It was written by Frimette Carr, who had been contacted by people in Stu's Facebook group who recognised her grandparents' name and the address on the postcard.",
+            "B) Soon after this, he decided to delete the Facebook group and never to engage in an activity like this again.",
+            "D) On the reverse was a stamp, an address, and a neatly written message, too. \"To our loving granddaughter,\" it read, \"wishing you many returns of the day. And may your future be a happy and peaceful one.\"",
+            "E) Other times, they would be more profound notes between loved ones.",
+            "F) Stu Prince is really proud of what he has achieved. \"I feel grateful for being able to reunite people with their past and let them have something they can cherish and hold on to that belonged to their ancestors.”",
+            "G) Stuart was encouraged by his wife Daphne to dig deeper.",
+            "H) It was then that Stu set up a Facebook group, named Reuniting Postcards With Families. By then he had over 2,000 postcards to find the owners of."
+          ],
+          "items": [
+            {
+              "id": "23",
+              "prompt": "\"I thought these were fantastic. They're all different, and they're all somebody's ancestor,\" he says. Sometimes the postcards would function like modern-day text messages - thanking their hosts for Sunday dinner, or letting a relative know they would be passing round the next day. ___ He'd always been interested in family histories, and a thought occurred to him. What if he could help trace the owners of the postcards and their relatives and reunite them?"
+            },
+            {
+              "id": "24",
+              "prompt": "He'd always been interested in family histories, and a thought occurred to him. What if he could help trace the owners of the postcards and their relatives and reunite them? ___ One of them had been sent in 1946, but it still looked bright and colourful."
+            },
+            {
+              "id": "25",
+              "prompt": "One of them had been sent in 1946, but it still looked bright and colourful. On its front was a cartoon of a rabbit asleep in a crib underneath the heading: \"You're one today.\" ___ Soon after posting the picture of the postcard, Stu received an email saying, \"That card is me, the baby is me.”"
+            },
+            {
+              "id": "26",
+              "prompt": "Soon after posting the picture of the postcard, Stu received an email saying, \"That card is me, the baby is me.” ___ The card brought back memories of distant times and she was thrilled to get it. \"It's amazing, this card has just travelled through time!” she says."
+            },
+            {
+              "id": "27",
+              "prompt": "The card brought back memories of distant times and she was thrilled to get it. \"It's amazing, this card has just travelled through time!” she says. ___"
+            }
+          ],
+          "max_points": 5,
+          "notes": "Text title: HOW WE RE-DELIVERED A BABY'S POSTCARD – 75 YEARS ON\nText content: \"Stu Prince fell seriously ill in 2019, and during his recovery, he knew he needed a distraction that would keep him occupied.\n\"I thought these were fantastic. They're all different, and they're all somebody's ancestor,\" he says. Sometimes the postcards would function like modern-day text messages - thanking their hosts for Sunday dinner, or letting a relative know they would be passing round the next day.\n(23) ___\nHe'd always been interested in family histories, and a thought occurred to him. What if he could help trace the owners of the postcards and their relatives and reunite them?\n(24) ___\nOne of them had been sent in 1946, but it still looked bright and colourful. On its front was a cartoon of a rabbit asleep in a crib underneath the heading: \"You're one today.\"\n(25) ___\nSoon after posting the picture of the postcard, Stu received an email saying, \"That card is me, the baby is me.”\n(26) ___\nThe card brought back memories of distant times and she was thrilled to get it. \"It's amazing, this card has just travelled through time!” she says.\n(27) ___\n\""
+        }
+      ]
+    },
+    {
+      "id": "nyelvhelyesseg",
+      "title": "II. Nyelvhelyesség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "You are going to read an article about how an art historian found out who the young man is in one of Van Gogh's most celebrated paintings. Some words are missing from the text. Your task is to choose the most appropriate word from the list (A-M) for each gap (1-8) in the text. You can use each word only once. There are three extra words that you do not need to use.",
+          "type": "multiple_choice",
+          "multi_select": false,
+          "shared_options": [
+            "A) ABOVE",
+            "B) AFTER",
+            "D) IDENTIFIED",
+            "E) LANDSCAPING",
+            "F) LOOKED",
+            "G) MATCHING",
+            "H) OUTSIDE",
+            "I) PAINTED",
+            "K) PREVIOUSLY",
+            "L) RECENTLY",
+            "M) WHILE"
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "The troubled (0) ARTIST painted one of his best works in the grounds of the mental hospital Saint-Paul-de-Mausole, where he was sent (1) ___ he had cut off his ear."
+            },
+            {
+              "id": "2",
+              "prompt": "The friendly-looking young sitter for 'Portrait of a Gardener' has been (2) ___ by British art historian and Van Gogh expert Martin Bailey."
+            },
+            {
+              "id": "3",
+              "prompt": "It seems he was from a working-class family, and probably made friends with Van Gogh (3) ___ he looked after the gardens in the grounds of the hospital."
+            },
+            {
+              "id": "4",
+              "prompt": "The art historian discovered a(n) (4) ___ unpublished note by the grandson of an attendant – François Poulet – who worked at the hospital in 1889-90 and often accompanied Van Gogh (5) ___ the walls to paint the Provençal landscape."
+            },
+            {
+              "id": "5",
+              "prompt": "The art historian discovered a(n) (4) ___ unpublished note by the grandson of an attendant – François Poulet – who worked at the hospital in 1889-90 and often accompanied Van Gogh (5) ___ the walls to paint the Provençal landscape."
+            },
+            {
+              "id": "6",
+              "prompt": "Looking at French records, Mr Bailey found a man (6) ___ that description."
+            },
+            {
+              "id": "7",
+              "prompt": "He worked as a gardener in the area and did gardening and (7) ___ work in the grounds of the hospital."
+            },
+            {
+              "id": "8",
+              "prompt": "The young man was about 28 at the time the portrait was (8) ___ and his family had lived for generations just outside the hospital."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: VAN GOGH MYSTERY FINALLY SOLVED\nText content: \"The troubled (0) ARTIST painted one of his best works in the grounds of the mental hospital Saint-Paul-de-Mausole, where he was sent (1) ___ he had cut off his ear.\nThe friendly-looking young sitter for 'Portrait of a Gardener' has been (2) ___ by British art historian and Van Gogh expert Martin Bailey. It seems he was from a working-class family, and probably made friends with Van Gogh (3) ___ he looked after the gardens in the grounds of the hospital. The art historian discovered a(n) (4) ___ unpublished note by the grandson of an attendant – François Poulet – who worked at the hospital in 1889-90 and often accompanied Van Gogh (5) ___ the walls to paint the Provençal landscape. His grandson, Louis, wrote that his grandfather told him the portrait shows “Jean Barral (1861-1942)\".\nLooking at French records, Mr Bailey found a man (6) ___ that description. He worked as a gardener in the area and did gardening and (7) ___ work in the grounds of the hospital. The young man was about 28 at the time the portrait was (8) ___ and his family had lived for generations just outside the hospital.\""
+        },
+        {
+          "id": "2",
+          "instruction": "You are going to read an article about the origins of the US dollar, the most widely used currency in the world. Some words are missing from the text. Use the words in brackets to form the words that fit in the gaps (9-16). There might be cases when you do not have to change the word in brackets. Use only one word for each gap.",
+          "type": "fill_in",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "9",
+              "prompt": "In 1516, vast (0) quantities of silver were discovered in the mountains (9) ___ (separate) modern-day Bohemia and Saxony."
+            },
+            {
+              "id": "10",
+              "prompt": "One of the most effective ways rulers could (10) ___ (strong) their control was to mint their own currency."
+            },
+            {
+              "id": "11",
+              "prompt": "Schlick was granted permission to mint his silver coins in January 1520. He (11) ___ (stamp) an image of Joachim on the front and the Bohemian lion on the back and named his new currency “Joachimsthalers” – which soon became shortened to “thalers”."
+            },
+            {
+              "id": "12",
+              "prompt": "Schlick did two smart things to (12) ___ (sure) the thalers' spread and survival."
+            },
+            {
+              "id": "13",
+              "prompt": "First, he made the thaler the same weight and diameter as the coin (13) ___ (use) throughout central Europe, which made it easier for neighbouring (14) ___ (king) to accept it."
+            },
+            {
+              "id": "14",
+              "prompt": "First, he made the thaler the same weight and diameter as the coin (13) ___ (use) throughout central Europe, which made it easier for neighbouring (14) ___ (king) to accept it."
+            },
+            {
+              "id": "15",
+              "prompt": "It was the Dutch leeuwendaler (“lion daler”) that gave the US currency its name. After (15) ___ (arrive) in New Amsterdam in the 17th century with Dutch colonists, the dalers quickly spread throughout the colonies and English-speaking (16) ___ (settle) started calling them “dollars”."
+            },
+            {
+              "id": "16",
+              "prompt": "It was the Dutch leeuwendaler (“lion daler”) that gave the US currency its name. After (15) ___ (arrive) in New Amsterdam in the 17th century with Dutch colonists, the dalers quickly spread throughout the colonies and English-speaking (16) ___ (settle) started calling them “dollars”."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: ORIGINS OF THE US DOLLAR\nText content: \"In 1516, vast (0) quantities (quantity) of silver were discovered in the mountains (9) ___ (separate) modern-day Bohemia and Saxony. Local nobleman Count Hieronymus Schlick christened the area Joachimsthal (“Joachim's valley”) after Jesus's grandfather, the local patron saint of miners. At the time, Europe was a continent of city-states with local rulers competing for power. One of the most effective ways rulers could (10) ___ (strong) their control was to mint their own currency.\nSchlick was granted permission to mint his silver coins in January 1520. He (11) ___ (stamp) an image of Joachim on the front and the Bohemian lion on the back and named his new currency “Joachimsthalers” – which soon became shortened to “thalers”. Schlick did two smart things to (12) ___ (sure) the thalers' spread and survival. First, he made the thaler the same weight and diameter as the coin (13) ___ (use) throughout central Europe, which made it easier for neighbouring (14) ___ (king) to accept it. Secondly, he minted more coins than the world had ever seen. By 1550, 12 million thalers had spread across Europe.\nJoachimsthal's mines soon ran dry, but by 1566, the thaler was so well known across Europe that many rulers began remodelling their coins after it. They also renamed them in their own languages. It was the Dutch leeuwendaler (“lion daler”) that gave the US currency its name. After (15) ___ (arrive) in New Amsterdam in the 17th century with Dutch colonists, the dalers quickly spread throughout the colonies and English-speaking (16) ___ (settle) started calling them “dollars”. The dollar became the official currency of the US in 1792.\""
+        },
+        {
+          "id": "3",
+          "instruction": "You are going to read an article about New Zealand's official wizard, who has lost his job after two decades of service. Some words are missing from the text. Choose the most appropriate answer from the options (A-D) for each gap (17-24) in the text.",
+          "type": "multiple_choice",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "17",
+              "prompt": "London-born Ian Brackenbury Channell, 88, was paid NZ$16,000 (£8,200) annually (17) ___ 'acts of wizardry and other wizard-like services' to promote Christchurch, New Zealand under a contract signed in 1998.",
+              "options": [
+                "A) having performed",
+                "B) to perform",
+                "C) and perform",
+                "D) performing"
+              ]
+            },
+            {
+              "id": "18",
+              "prompt": "But the Wizard himself claimed that he was being 'cancelled' (18) ___ he no longer fitted 'the vibes' of the city, describing himself as a 'provocateur'."
+            },
+            {
+              "id": "19",
+              "prompt": "A council spokesperson said Channell had been sent a letter thanking (19) ___ his service and informing him that his contract was terminated.",
+              "options": [
+                "A) to him",
+                "B) for him",
+                "C) him",
+                "D) him for"
+              ]
+            },
+            {
+              "id": "20",
+              "prompt": "(20) ___ performing acts of magic as entertainment in public spaces in Christchurch after arriving in New Zealand in 1976.",
+              "options": [
+                "A) has begun",
+                "B) would begin",
+                "C) began",
+                "D) were to begin"
+              ]
+            },
+            {
+              "id": "21",
+              "prompt": "When police tried to arrest him, a public protest led (21) ___ a local square being designated a public speaking area.",
+              "options": [
+                "A) to",
+                "B) –",
+                "C) by",
+                "D) in"
+              ]
+            },
+            {
+              "id": "22",
+              "prompt": "(22) ___ his termination of employment, Channell said he would continue his regular appearances at Christchurch's Arts Centre, chatting to tourists and locals.",
+              "options": [
+                "A) Despite",
+                "B) In case of",
+                "C) Since",
+                "D) As far as"
+              ]
+            },
+            {
+              "id": "23",
+              "prompt": "The centre is hosting an exhibition of his life this month, (23) ___ is supported by the council.",
+              "options": [
+                "A) that",
+                "B) which",
+                "C) this",
+                "D) what"
+              ]
+            },
+            {
+              "id": "24",
+              "prompt": "When asked (24) ___ curse the council over its decision, he said he preferred giving blessings.",
+              "options": [
+                "A) where would he",
+                "B) that he would",
+                "C) how would he",
+                "D) if he would"
+              ]
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: NEW ZEALAND'S OFFICIAL WIZARD IS FIRED\nText content: \"The official Wizard of New Zealand has been fired following 23 years of service (0) after joking about hitting women.\nLondon-born Ian Brackenbury Channell, 88, was paid NZ$16,000 (£8,200) annually (17) ___ 'acts of wizardry and other wizard-like services' to promote Christchurch, New Zealand under a contract signed in 1998. He is believed to have been the world's only state-appointed wizard.\nChristchurch council said it ended Channell's contract because it wanted to be more modern. But the Wizard himself claimed that he was being 'cancelled' (18) ___ he no longer fitted 'the vibes' of the city, describing himself as a 'provocateur'. In April, he made several offensive remarks about women on a television show. A council spokesperson said Channell had been sent a letter thanking (19) ___ his service and informing him that his contract was terminated.\nChannell (20) ___ performing acts of magic as entertainment in public spaces in Christchurch after arriving in New Zealand in 1976. When police tried to arrest him, a public protest led (21) ___ a local square being designated a public speaking area. Since then, Channell, dressed in a long cloak and pointy hat, has performed in Christchurch and rain-danced in Australia during droughts.\n(22) ___ his termination of employment, Channell said he would continue his regular appearances at Christchurch's Arts Centre, chatting to tourists and locals. The centre is hosting an exhibition of his life this month, (23) ___ is supported by the council. When asked (24) ___ curse the council over its decision, he said he preferred giving blessings.\""
+        },
+        {
+          "id": "4",
+          "instruction": "You are going to read an article about a rare first edition of a Harry Potter book that was sold to a private buyer at an auction in England. In most lines there is one word that should not be there. It is either grammatically incorrect or does not fit in with the sense of the text. Read the text and then copy the extra word in the space provided after each line. Some lines may be correct. Indicate the correct line(s) with a tick (✔).",
+          "type": "other",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "25",
+              "prompt": "Mr Potter said although his family decided to sell the book to"
+            },
+            {
+              "id": "26",
+              "prompt": "honour his late father, who died in 2017. His sister said: \"I remember"
+            },
+            {
+              "id": "27",
+              "prompt": "Dad bursting through the front door was waving a book, shouting"
+            },
+            {
+              "id": "28",
+              "prompt": "'You won't believe what I've got!' At first, we were bit confused."
+            },
+            {
+              "id": "29",
+              "prompt": "Had someone written a book looking for Harry? The coincidence"
+            },
+            {
+              "id": "30",
+              "prompt": "of the namesake was that what made us open the first book, but the"
+            },
+            {
+              "id": "31",
+              "prompt": "magic word of the story kept us turning the pages for years.\""
+            },
+            {
+              "id": "32",
+              "prompt": "Mr Potter has spent the time since the book at first came out having"
+            },
+            {
+              "id": "33",
+              "prompt": "to convince more people that Harry Potter really is his name. \"People"
+            },
+            {
+              "id": "34",
+              "prompt": "just don't believe me. When I was a young footballer, a referee"
+            },
+            {
+              "id": "35",
+              "prompt": "threatened me with a red card for saying him my name was Harry"
+            }
+          ],
+          "max_points": 11,
+          "notes": "Text title: REAL HARRY POTTER SELLS PHILOSOPHER'S STONE\nText content: \"A rare first edition of a Harry Potter novel has been sold for £27,500 - by Harry Potter.\nMr Potter was just eight when the first in the series of JK Rowling's blockbuster novels came out. He was given Harry Potter and The (0) Philosopher's Stone by his \"flabbergasted\" father in 1997, when (0) he realised it was about a wizard together with his son's name.\n(25) Mr Potter said although his family decided to sell the book to\n(26) honour his late father, who died in 2017. His sister said: \"I remember\n(27) Dad bursting through the front door was waving a book, shouting\n(28) 'You won't believe what I've got!' At first, we were bit confused.\n(29) Had someone written a book looking for Harry? The coincidence\n(30) of the namesake was that what made us open the first book, but the\n(31) magic word of the story kept us turning the pages for years.\"\n(32) Mr Potter has spent the time since the book at first came out having\n(33) to convince more people that Harry Potter really is his name. \"People\n(34) just don't believe me. When I was a young footballer, a referee\n(35) threatened me with a red card for saying him my name was Harry Potter,\" he said.\""
+        }
+      ]
+    },
+    {
+      "id": "hallott",
+      "title": "III. Hallott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "In this section, you will hear some information about one of the most famous photographs ever taken. Your task will be to give short answers to the questions below by continuing the sentences we have begun for you using the exact words you hear in the recording.",
+          "type": "short_answer",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Besides photos of breadlines and poor housing, what other images appeared in newspapers? Images of ..."
+            },
+            {
+              "id": "2",
+              "prompt": "When exactly was Lunch Atop a Skyscraper taken? On ..."
+            },
+            {
+              "id": "3",
+              "prompt": "What two American characteristics did the photo symbolize? The two characteristics were ..."
+            },
+            {
+              "id": "4",
+              "prompt": "What was Rockefeller Center's main goal with Lunch Atop a Skyscraper? To ..."
+            },
+            {
+              "id": "5",
+              "prompt": "Besides throwing a football, what were some workers doing in another photo taken on the same day? They were..."
+            },
+            {
+              "id": "6",
+              "prompt": "Where is Peter Rice, a Native American, in the photo? He is ..."
+            },
+            {
+              "id": "7",
+              "prompt": "What does the documentary film entitled Men at Lunch confirm? It confirms the..."
+            },
+            {
+              "id": "8",
+              "prompt": "Where is Joe Curtis in the photo? He is the ..."
+            },
+            {
+              "id": "9",
+              "prompt": "Who did Gustáv Popovič send a postcard with Lunch Atop a Skyscraper to? To ..."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Context: Information about one of the most famous photographs ever taken."
+        },
+        {
+          "id": "2",
+          "instruction": "In this section you will hear an interview with Italian engineer and astronaut, Paolo Nespoli. Your task will be to decide whether the following statements are true, false or we do not know because the text does not say, and write the appropriate letter in the boxes on the right. Write A if the statement is true, write B if the statement is false, and write C if the text does not say.",
+          "type": "true_false",
+          "multi_select": false,
+          "shared_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "items": [
+            {
+              "id": "10",
+              "prompt": "The Apollo 11 spaceflight motivated Paolo the most to become an astronaut."
+            },
+            {
+              "id": "11",
+              "prompt": "His second application was rejected because he was not fit."
+            },
+            {
+              "id": "12",
+              "prompt": "Many astronauts have to train for more than 9 years before getting selected for a mission."
+            },
+            {
+              "id": "13",
+              "prompt": "For Paolo, feeling the acceleration in the shuttle in the first few minutes was very scary."
+            },
+            {
+              "id": "14",
+              "prompt": "In space, Paolo was 6 cm shorter than on Earth."
+            },
+            {
+              "id": "15",
+              "prompt": "Paolo remembered trembling and feeling exhausted."
+            },
+            {
+              "id": "16",
+              "prompt": "Paolo became more muscular in space than he had been on Earth."
+            },
+            {
+              "id": "17",
+              "prompt": "Paolo thought that the food he ate in space was an absolute nightmare."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Context: Interview with Italian engineer and astronaut, Paolo Nespoli."
+        },
+        {
+          "id": "3",
+          "instruction": "In this section you will listen to some information about The Cheshire Midland Pub in England. Your task will be to write the letter of the correct answer into the boxes on the right.",
+          "type": "multiple_choice",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "18",
+              "prompt": "Mr Humphrey Jones",
+              "options": [
+                "A) is the owner of the Brewery Chain.",
+                "B) loved playing with slot machines.",
+                "C) bought televisions for his pubs."
+              ]
+            },
+            {
+              "id": "19",
+              "prompt": "The use of mobile phones was banned from Sam Smith's Brewery Chain pubs",
+              "options": [
+                "A) in 2017.",
+                "B) in a message sent to pub managers.",
+                "C) by the request of pub managers."
+              ]
+            },
+            {
+              "id": "20",
+              "prompt": "The aim of Sam Smith's Brewery's policy was to ...",
+              "options": [
+                "A) keep the pubs as quiet as possible.",
+                "B) make people drink more and talk less.",
+                "C) encourage face-to-face interaction."
+              ]
+            },
+            {
+              "id": "21",
+              "prompt": "Last Thursday",
+              "options": [
+                "A) locals in the pub discovered the identities of the representatives.",
+                "B) customers in the pub were caught using their mobiles.",
+                "C) Mr. Humphrey Jones himself heard someone swearing in the pub."
+              ]
+            },
+            {
+              "id": "22",
+              "prompt": "Mr Calder's father ...",
+              "options": [
+                "A) was talking to someone on his phone.",
+                "B) was threatened by the brewery representatives.",
+                "C) decided never to go to a Sam Smith's pub again."
+              ]
+            },
+            {
+              "id": "23",
+              "prompt": "Ms Mary Holmes said that ...",
+              "options": [
+                "A) customers hadn't known about the phone ban.",
+                "B) the bar staff had always warned the customers not to use their mobiles.",
+                "C) the bar staff had understood that some customers needed their phones."
+              ]
+            },
+            {
+              "id": "24",
+              "prompt": "Mr Jerry Atkinson said that he had never agreed with the ban on",
+              "options": [
+                "A) slot machines.",
+                "B) televisions.",
+                "C) mobile phones."
+              ]
+            },
+            {
+              "id": "25",
+              "prompt": "Ms Clara Austin ...",
+              "options": [
+                "A) said that people should mind their language.",
+                "B) suggested that people have good reason to swear.",
+                "C) said that the Cheshire Midland Pub is a typical family place."
+              ]
+            }
+          ],
+          "max_points": 8,
+          "notes": "Context: Information about The Cheshire Midland Pub in England."
+        }
+      ]
+    },
+    {
+      "id": "iras",
+      "title": "IV. Íráskészség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Write an email of 120-150 words to Adam in which you introduce yourself briefly and write about your previous cooking experience, if any, choose a class and say why you're interested in it, ask about the price of the class and the equipment needed. Begin your email like this: Hi Adam,",
+          "type": "essay",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Write an email of 120-150 words to Adam in which you introduce yourself briefly and write about your previous cooking experience, if any, choose a class and say why you're interested in it, ask about the price of the class and the equipment needed. Begin your email like this: Hi Adam,"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Context: Advertisement for Online classes at The Jamie Oliver Cookery School.\nAdvertisement text: \"Hey lovely people! We at The Jamie Oliver Cookery School have moved our cooking classes online! Discover a specific cuisine and pick up useful tips from our amazing chefs - just from the comfort of your own kitchen.\nBook onto one of our live, interactive, two-hour digital classes, and we'll send you a recipe card with a shopping list, so you can be ready to go when you log into the session via Zoom.\nDuring the class, our helpful English-speaking chefs will walk you through the recipe steps and cook along with you, answering any questions you may have. You'll be sharing the session with a handful of other food lovers, so prepare yourself for a great experience.\nITALIAN FAVOURITES: Create your very own Italian feast and master the foundations of this wonderful cuisine in this two-hour class.\nTHE ULTIMATE BURGER: Recreate burger perfection at home, complete with mustard, melty cheese, homemade sauce, and super-speedy pickled onions.\nBREAD BAKING: Fill your house with the smell of fresh bread as our chefs guide you through the basics of bread baking.\nSo what are you waiting for? Choose the session that makes your mouth water and book now! Write to Adam at adam@jamiescookeryschool.com.\""
+        },
+        {
+          "id": "2",
+          "instruction": "Write a comment of 200-250 words in which you tell her whether you agree with the mission statement of the brand, whether you think it's a real challenge worth trying for anyone, what problems -if any- you think wearing the same dress for 100 days might cause, whether she should take part in the challenge and why/ why not. Begin your email like this: Emma:",
+          "type": "essay",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Write a comment of 200-250 words in which you tell her whether you agree with the mission statement of the brand, whether you think it's a real challenge worth trying for anyone, what problems -if any- you think wearing the same dress for 100 days might cause, whether she should take part in the challenge and why/ why not. Begin your email like this: Emma:"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Context: Post on internet forum Take the Challenge by Emma U.K.\nPost content: \"Have you heard about the 100-day challenge devised by the US brand Wool&? They produce simple, sustainably sourced merino wool dresses called Rowena, Ellie and other common names. The basic idea is that women who wear the same dress for 100 days and document it with daily pictures get a voucher for a new one.\nI got the idea from my friend Eby in Oregon, who is on day 58 with her grey Fiona dress (I only saw photos of her wearing it on Instagram). She had decided to take part in the challenge because she completely agreed with the brand's mission statement – “live simply, consume carefully, do good” – and encouraged me to sign up too.\nI quite like the idea of living a simpler life in general; the pandemic showed us that it was possible to survive without a lot of things we had thought of as essential. You also have to be creative to be able to do more with less, so it could even be fun. (Or, as guys manage perfectly with a pair of jeans and a T-shirt for ever and ever, no special challenge there, haha?)\nAnyway, I'm more for it than not but can't make up my mind; I'd appreciate your opinion. Do you think I should give it a try? Would you? Or your girlfriend?\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "sections": [
+    {
+      "id": "olvasott",
+      "title": "Olvasott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Read the article about bookstores in New York and then match the half sentences based on the information in the text. Write the letters (A-K) in the white boxes next to the numbers (1-6). Remember that there are three extra letters that you will not need.",
+          "type": "matching",
+          "multi_select": false,
+          "shared_options": [
+            "A) has some books with inscriptions from their writers.",
+            "B) features a wide variety of non-fiction books.",
+            "D) offers a nice cup of coffee or tea while you're browsing.",
+            "E) has a wide selection of children's literature.",
+            "F) was once located on a street full of other bookstores.",
+            "G) organises events where they count on customers' active participation.",
+            "H) is not intended to make money but aims to make the world a better place.",
+            "I) sometimes houses exhibitions by contemporary artists.",
+            "K) has recently reopened after months of renovation."
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Mcnally Jackson Books..."
+            },
+            {
+              "id": "2",
+              "prompt": "Astoria Bookshop ..."
+            },
+            {
+              "id": "3",
+              "prompt": "The Corner Bookstore ..."
+            },
+            {
+              "id": "4",
+              "prompt": "Rizzoli Bookstore ..."
+            },
+            {
+              "id": "5",
+              "prompt": "Housing Works ..."
+            },
+            {
+              "id": "6",
+              "prompt": "Strand Bookstore ..."
+            }
+          ],
+          "max_points": 6,
+          "notes": "Article title: BOOKSTORES IN NEW YORK. Text: New York City is one of the most literary cities in the world. If you're a book lover roaming the streets of the Big Apple, we're here to give you some advice. Books are Magic is owned by Emma Straub, the author of The Vacationers. She and her husband, who also live in the area, created a literary slice of heaven. Aside from being full of awesome reads, the store has a ton of cool author events. Mcnally Jackson Books has a great selection of used books and new titles available. Their selection varies because many books are bought from the community, and one can even find some signed by local authors – a real treat for a bookie! Astoria Bookshop holds a variety of literary events that are sure to bring a crowd. They do events like “The Storytelling Show”, where people can put their name in a hat and have the chance to be chosen to tell a five-minute, no-theme story to a room full of total strangers. The Corner Bookstore has been impacting local readers since 1978. They carefully select the best of the best current titles to display and sell, and they feature an impressive kids' section that satisfies the family friendly area and their residents. For over 50 years, Rizzoli Bookstore has been considered one of the foremost independent booksellers in America, featuring illustrated books on architecture, interior design, fashion, photography, cookery, and more. Housing Works is more than just a bookstore. It's a non-profit that was established to fight AIDS and homelessness in NYC, causes it helps to fund through selling books. Every book comes from donation, and with a staff made up almost entirely of volunteers, this shop is able to put 100% of their proceeds back into Housing Works. Strand Bookstore was started in 1927 in a street that used to be called \"Book Row”. The Bass family runs this shop in its current space, just a few blocks from the original location, and carries over 2.5 million used, new, and rare books."
+        },
+        {
+          "id": "2",
+          "instruction": "Read the article about a famous university tradition. Some parts of sentences have been left out from the text. Your task is to reconstruct the text by filling in the gaps (7-14) from the list (A-L). Write the letters in the white boxes next to the numbers. Remember that there are two extra letters that you do not need.",
+          "type": "fill_in",
+          "multi_select": false,
+          "shared_options": [
+            "A) handed their new Navy officer hats",
+            "B) to remain a part of academic culture",
+            "D) given a chance to choose the colour of their hats",
+            "E) personalizing the tops of their graduation caps",
+            "F) to pose as if they were throwing their caps in the air",
+            "G) to finally receive a diploma and cap and gown",
+            "H) seen this repeatedly in movies",
+            "I) caused some injuries to graduates",
+            "K) viewing the act as a symbolic gesture",
+            "L) passing down graduation hats from generation to generation"
+          ],
+          "items": [
+            {
+              "id": "7",
+              "prompt": "Imagine, for a second, that you are observing the human species through the eyes of an alien unfamiliar with our culture. You see students struggling day after day with lectures, assignments, and tests ___ signifying the completion of their studies."
+            },
+            {
+              "id": "8",
+              "prompt": "You see these students, in some instances, spending time and effort creatively decorating and ___."
+            },
+            {
+              "id": "9",
+              "prompt": "We've ___, but has it always been like this?"
+            },
+            {
+              "id": "10",
+              "prompt": "During the ceremony, the soon-to-be Navy officers were ___."
+            },
+            {
+              "id": "11",
+              "prompt": "Other institutions began to follow the tradition, ___ for starting a new chapter in a graduate's life."
+            },
+            {
+              "id": "12",
+              "prompt": "This tradition may be expected ___ in the future."
+            },
+            {
+              "id": "13",
+              "prompt": "...the graduation cap isn't the softest of hats, and has ___ over the years."
+            },
+            {
+              "id": "14",
+              "prompt": "The University of East Anglia, for example, has asked bare-headed graduates ___, and then added the caps back to the photos with photoshop."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Article title: WHY DO GRADUATES TOSS THEIR HATS IN THE AIR?. Text: Imagine, for a second, that you are observing the human species through the eyes of an alien unfamiliar with our culture. You see students struggling day after day with lectures, assignments, and tests (7) ___ signifying the completion of their studies. You see these students, in some instances, spending time and effort creatively decorating and (8) ___. You'd probably expect that they'd cherish these symbolic items forever, but to your surprise, at the end of the graduation ceremony, they all throw their graduation caps in the air! We've (9) ___, but has it always been like this? As with most cultural norms, there is an origin story. The first cap throwing ceremony took place at the US Naval Academy in 1912, where students spent two years as 'midshipmen' before graduating and becoming naval officers. With the new title came a new hat for their uniforms. During the ceremony, the soon-to-be Navy officers were (10) ___. At this point, realising that their midshipmen hats were now unnecessary, the graduating class began tossing their old hats in the air in celebration. This started the tradition at the US Naval Academy for every graduating class to symbolize the shedding of their midshipmen titles and preparing themselves for the role of naval officer. Other institutions began to follow the tradition, (11) ___ for starting a new chapter in a graduate's life. This tradition may be expected (12) ___ in the future. Believe it or not, however, in recent years, there have been some schools where banning the century-old tradition has become the norm, due to the fact that the graduation cap isn't the softest of hats, and has (13) ___ over the years. The University of East Anglia, for example, has asked bare-headed graduates (14) ___, and then added the caps back to the photos with photoshop. As you can imagine, this has been met with some resistance, and the tradition is likely to continue for years to come."
+        },
+        {
+          "id": "3",
+          "instruction": "Read this article about the \"Steamboat Ladies\" and then read the statements (15-22) following it. Mark a sentence A if it is true according to the article. Mark it B if it is false. Mark it C if there isn't enough information in the text to decide if the sentence is true or not. Write the letters in the white boxes next to the numbers.",
+          "type": "true_false",
+          "multi_select": false,
+          "shared_options": [
+            "A) TRUE",
+            "B) FALSE",
+            "C) THE TEXT DOES NOT SAY"
+          ],
+          "items": [
+            {
+              "id": "15",
+              "prompt": "George Salmon was fiercely against women being admitted to Trinity College."
+            },
+            {
+              "id": "16",
+              "prompt": "The first woman to study at Trinity took her entrance exam while Provost Salmon was being buried."
+            },
+            {
+              "id": "17",
+              "prompt": "Male students at Trinity College Dublin were opposed to women getting degrees there."
+            },
+            {
+              "id": "18",
+              "prompt": "The fact that women could not graduate from Cambridge and Oxford did not mean that they could not study there."
+            },
+            {
+              "id": "19",
+              "prompt": "It was Trinity College's equal rights policy that resulted in the movement of the \"Steamboat Ladies\"."
+            },
+            {
+              "id": "20",
+              "prompt": "It was only if a woman wanted a career in teaching that they could receive their degree in Oxford or Cambridge."
+            },
+            {
+              "id": "21",
+              "prompt": "In order to prove they were qualified, women were required to take their degree examinations at Trinity the day before receiving their degree."
+            },
+            {
+              "id": "22",
+              "prompt": "It was Trinity's practice to allow women to graduate that eventually convinced Oxford and Cambridge Universities to do the same."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Article title: THE STEAMBOAT LADIES. Text: It wasn't very long ago that women were first given the opportunity to study at Trinity College Dublin, which may seem shocking for a school that now has an even ratio of male to female students. Provost George Salmon allegedly promised that he would only let women into Trinity College “over his dead body”, but his objections were overcome within a year of his death in 1904, and it was decided that there would be no viable reason to prevent women from gaining their degrees just as their male counterparts did. Coincidentally, the first woman to successfully register in the College, Isabel Marion Weir Johnston, did so on January 22nd, 1904, the same day former Provost Salmon died. Her entrance examinations even had to be put off because of his funeral. Trinity College's policy on the admission of women was a progressive view at a time when women did not yet typically receive degrees. While they could technically sit their degree examinations at both Cambridge and Oxford, they would not be given the opportunity to receive their degrees. The lack of degrees meant that women did not earn the same qualification as men even if they took the same steps in university. Trinity's differing policy on women led to a group called the “Steamboat Ladies”, hundreds of women who decided to travel to Ireland to receive degrees from Trinity between 1904 and 1907. They were given this nickname due to their arrival on steamboats from the UK. Trinity College expected a small number of Oxbridge women to travel to Ireland for their degrees. However, between 1904 and 1907, 720 women from Oxford and Cambridge arrived with the aim to graduate. The ability to gain their degrees was invaluable for their professional status, especially if their aspirations led to teaching. Although some of the women stayed a bit longer at Trinity College, many of them came over for just one night to participate in the graduation ceremonies. They took one day off, came on the overnight steamboat, stayed one night in Dublin, got their degrees the next day, and went back the following night."
+        },
+        {
+          "id": "4",
+          "instruction": "Read this article about a community enterprise in Edinburgh. Some sentences have been left out from the text. Your task is to reconstruct the text by filling in the gaps (23-28) from the list (A-K). Write the letters in the white boxes next to the numbers. Remember that there are three extra letters that you do not need.",
+          "type": "fill_in",
+          "multi_select": false,
+          "shared_options": [
+            "A) Something as simple as access to tools had made a fundamental difference to a man facing the most challenging of times.",
+            "B) There he witnessed first-hand the positive environmental and social impacts a tool library can have on a community.",
+            "D) Members were encouraged to provide their unused tools as part of their membership donation.",
+            "E) To do the job, he needed to find a hammer, Stanley knife, and tool belt, which he didn't have.",
+            "F) After a long battle, they finally succeeded and managed to find funding organizations.",
+            "G) Having access to tools is one thing, but it is important that people know how to use them.",
+            "H) He was broke and homeless, living on friends' sofas.",
+            "I) On leaving the city, he also understood the social transformations and human impacts made possible through the sharing of resources.",
+            "K) He hopes that the charity will soon be able to open more locations across the city and offer the library service to more communities."
+          ],
+          "items": [
+            {
+              "id": "23",
+              "prompt": "The inspiration for the library came when its founder, Chris Hellawell, came across a similar project in Canada. ___ During his stay, he visited the Toronto Tool Library and met Ryan Dyment, one of the driving forces behind the project."
+            },
+            {
+              "id": "24",
+              "prompt": "...a young man called Philippe, who was having a tough time. ___ He was probably around the same age as me and I guess I could see something of myself in him,” Chris says."
+            },
+            {
+              "id": "25",
+              "prompt": "\"To his credit, Philippe had found a job as a roofer and was due to start the following Monday. ___ Nor did he have any money."
+            },
+            {
+              "id": "26",
+              "prompt": "This meant Philippe was able to earn a wage, and in turn he then became a full member of the library. ___ In an instant, his whole life had been transformed, and he wasn't far from tears,\" Chris remembers."
+            },
+            {
+              "id": "27",
+              "prompt": "Before Toronto, Chris had understood the environmental case for tool sharing. ___"
+            },
+            {
+              "id": "28",
+              "prompt": "Chris returned from Toronto determined to start Edinburgh's own Library. He established a board of trustees, and they applied for charitable status, which took longer than they had hoped. ___ The board set up a staff team, built up the tool inventory through donations and raised public interest in the idea."
+            }
+          ],
+          "max_points": 6,
+          "notes": "Article title: THE HISTORY OF THE EDINBURGH TOOL LIBRARY. Text: The Edinburgh Tool Library makes more than 2,000 tools available free of charge to Edinburgh residents. Since its opening in 2015, the library has saved its members over £1.3million by sharing instead of buying. The inspiration for the library came when its founder, Chris Hellawell, came across a similar project in Canada. (23) ___ During his stay, he visited the Toronto Tool Library and met Ryan Dyment, one of the driving forces behind the project. “I picked up invaluable advice from Ryan, but what stuck with me most was an encounter with another visitor, a young man called Philippe, who was having a tough time. (24) ___ He was probably around the same age as me and I guess I could see something of myself in him,” Chris says. \"To his credit, Philippe had found a job as a roofer and was due to start the following Monday. (25) ___ Nor did he have any money. Ryan ran through the set-up at the Library with Philippe and let him borrow what he needed, registering him as a temporary member. This meant Philippe was able to earn a wage, and in turn he then became a full member of the library. (26) ___ In an instant, his whole life had been transformed, and he wasn't far from tears,\" Chris remembers. Before Toronto, Chris had understood the environmental case for tool sharing. (27) ___ Chris returned from Toronto determined to start Edinburgh's own Library. He established a board of trustees, and they applied for charitable status, which took longer than they had hoped. (28) ___ The board set up a staff team, built up the tool inventory through donations and raised public interest in the idea. Then, in March 2015, the UK's first tool library opened on Leith Walk, Edinburgh."
+        }
+      ]
+    },
+    {
+      "id": "nyelvhelyesseg",
+      "title": "Nyelvhelyesség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "You are going to read a story about Neil Armstrong, the first man to walk on the Moon, and his barber. Some words are missing from the text. Your task is to choose the most appropriate word from the list (A-L) for each gap (1-7) in the text. Write the letter of the appropriate word in the white box. You can use each word only once. There are three extra words that you do not need to use.",
+          "type": "fill_in",
+          "multi_select": false,
+          "shared_options": [
+            "A) ADMITTED",
+            "B) AFTER",
+            "D) BUT",
+            "E) CLAIMING",
+            "F) FOR",
+            "G) IF",
+            "H) LISTED",
+            "I) TELLING",
+            "K) TO",
+            "L) UNTIL"
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "The buyer, John Reznikoff of Westport, Connecticut, is a collector ___ by the Guinness World Records as having the largest collection of hair from historical celebrities."
+            },
+            {
+              "id": "2",
+              "prompt": "Sizemore, who ___ selling the hair, said Armstrong asked him to try to retrieve it."
+            },
+            {
+              "id": "3",
+              "prompt": "Then, Sizemore got a letter from the former astronaut's attorney ___ that the sale broke an Ohio law designed to protect the rights of famous people."
+            },
+            {
+              "id": "4",
+              "prompt": "The letter threatened legal action ___."
+            },
+            {
+              "id": "5",
+              "prompt": "Sizemore did not return the hair or contribute his profit ___ charity and asked Sizemore to pay Armstrong's legal costs."
+            },
+            {
+              "id": "6",
+              "prompt": "___ Sizemore said he would not pay and had already spent most of the $3,000 on bills."
+            },
+            {
+              "id": "7",
+              "prompt": "He decided to make the donation ___ news accounts that said Armstrong had threatened to sue."
+            }
+          ],
+          "max_points": 7,
+          "notes": "Article title: ONE SMALL CUT FOR A MAN, ONE LEGAL ACTION. Text: Armstrong used to go to Marx's Barber Shop in Lebanon, Ohio, about once a month for a cut. That stopped when he learned that owner Marx Sizemore had collected his hair clippings from the floor and sold them for $3,000. The buyer, John Reznikoff of Westport, Connecticut, is a collector (1) ___ by the Guinness World Records as having the largest collection of hair from historical celebrities. His collection includes hair from Abraham Lincoln, Marilyn Monroe, Albert Einstein and Napoleon. Sizemore, who (2) ___ selling the hair, said Armstrong asked him to try to retrieve it. He told Armstrong that the buyer did not want to give up the locks. Then, Sizemore got a letter from the former astronaut's attorney (3) ___ that the sale broke an Ohio law designed to protect the rights of famous people. The letter threatened legal action (4) ___. Sizemore did not return the hair or contribute his profit (5) ___ charity and asked Sizemore to pay Armstrong's legal costs. (6) ___ Sizemore said he would not pay and had already spent most of the $3,000 on bills. Reznikoff said that he wouldn't give the hair back, but would donate $3,000 to charity. He decided to make the donation (7) ___ news accounts that said Armstrong had threatened to sue."
+        },
+        {
+          "id": "2",
+          "instruction": "You are going to read an article about the Statue of Liberty. Some words are missing from the text. Use the words in brackets to form the words that fit in the gaps (8-15). Then write the appropriate form of these words on the dotted lines after the text. There might be cases when you do not have to change the word in brackets. Use only one word for each gap.",
+          "type": "fill_in",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "8",
+              "prompt": "The construction of the Statue of Liberty was a ___ (join) project between France and the United States."
+            },
+            {
+              "id": "9",
+              "prompt": "France was supposed to build the copper statue of a woman ___ (raise) a torch, and the United States was supposed to build its pedestal."
+            },
+            {
+              "id": "10",
+              "prompt": "...the American Committee of the Statue of Liberty hadn't raised the ___ (rough) $250,000 necessary to build it."
+            },
+            {
+              "id": "11",
+              "prompt": "Most of the money the committee had raised so far had come in the form of donations from ___ (wealth) Americans."
+            },
+            {
+              "id": "12",
+              "prompt": "There was a lot of ___ (agree) over who should put up the money."
+            },
+            {
+              "id": "13",
+              "prompt": "New York Governor Grover Cleveland said that New York City couldn't use its city ___ (govern) funds to pay for the pedestal."
+            },
+            {
+              "id": "14",
+              "prompt": "...this was understandably on the condition that the statue be ___ (move) to their city."
+            },
+            {
+              "id": "15",
+              "prompt": "Joseph Pulitzer, a Hungarian immigrant and rich newspaper ___ (publish), was in favour of erecting the statue in New York City."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Article title: WHY THE STATUE OF LIBERTY ALMOST DIDN'T GET BUILT. Text: The (0) construction (construct) of the Statue of Liberty was a (8) ___ (join) project between France and the United States. France was supposed to build the copper statue of a woman (9) ___ (raise) a torch, and the United States was supposed to build its pedestal. But for a while, it wasn't clear if the statue would go up in New York City at all. When it arrived (in pieces) in New York Harbor in June 1885, the pedestal was still under construction, and the American Committee of the Statue of Liberty hadn't raised the (10) ___ (rough) $250,000 necessary to build it. Most of the money the committee had raised so far had come in the form of donations from (11) ___ (wealth) Americans. There wasn't any federal funding for the pedestal, because the U.S. Congress couldn't agree on a spending package. There was a lot of (12) ___ (agree) over who should put up the money. In addition, New York Governor Grover Cleveland said that New York City couldn't use its city (13) ___ (govern) funds to pay for the pedestal. Other cities expressed interest in funding the pedestal – but this was understandably on the condition that the statue be (14) ___ (move) to their city. Joseph Pulitzer, a Hungarian immigrant and rich newspaper (15) ___ (publish), was in favour of erecting the statue in New York City. On March 16, 1885, he asked readers of his newspaper the New York World to send in donations for the pedestal. Pulitzer succeeded: by August 1885, more than 120,000 people had helped to raise enough money."
+        },
+        {
+          "id": "3",
+          "instruction": "You are going to read an article about a new programme for visitors to Palau, a country in the West Pacific consisting of 300-plus islands. Some words are missing from the text. Your task is to write the missing words on the dotted lines (16-24) after the text. Use only one word in each gap.",
+          "type": "fill_in",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "16",
+              "prompt": "In a world-first initiative, visitors to Palau will be offered exclusive experiences based on how they treat the environment and culture, rather ___ on how much they spend."
+            },
+            {
+              "id": "17",
+              "prompt": "Not only ___ the country adopt the world's first anti-nuclear constitution in 1979, but it also implemented the Palau Pledge in December 2017..."
+            },
+            {
+              "id": "18",
+              "prompt": "...the Palau Pledge in December 2017, ___ requires international visitors to sign a pledge stamp in their passports..."
+            },
+            {
+              "id": "19",
+              "prompt": "The idea for the Palau Pledge came about in 2015, ___ which time tourism had reached 150,000 visitors annually..."
+            },
+            {
+              "id": "20",
+              "prompt": "...many of ___ didn't understand how important sustainability was to residents."
+            },
+            {
+              "id": "21",
+              "prompt": "While Palauan culture values hospitality and treats visitors ___ respect, locals could see how under-educated visitors were harming their environment."
+            },
+            {
+              "id": "22",
+              "prompt": "To combat this, Palau needed a way to educate travellers and ___ them earn the privilege of being a friend."
+            },
+            {
+              "id": "23",
+              "prompt": "...making sustainable decisions, ___ as using environmentally-friendly sunscreen and eating locally produced food."
+            },
+            {
+              "id": "24",
+              "prompt": "It also promises new experiences that may once have ___ rare for tourists to partake in, e.g. taking an unmarked hike or sharing a meal with locals and elders."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Article title: PALAU'S WORLD-FIRST 'GOOD TRAVELLER' INCENTIVE. Text: In a world-first initiative, visitors to Palau will be offered exclusive experiences (0) based on how they treat the environment and culture, rather (16) ___ on how much they spend. Despite being home to fewer than 20,000 residents, the Republic of Palau is making a massive impact to preserve the planet. Not only (17) ___ the country adopt the world's first anti-nuclear constitution in 1979, but it also implemented the Palau Pledge in December 2017, (18) ___ requires international visitors to sign a pledge stamp in their passports that promises the children of Palau that they will \"tread lightly\" and \"preserve and protect\" the islands of Palau. The idea for the Palau Pledge came about in 2015, (19) ___ which time tourism had reached 150,000 visitors annually, many of (20) ___ didn't understand how important sustainability was to residents. While Palauan culture values hospitality and treats visitors (21) ___ respect, locals could see how under-educated visitors were harming their environment. To combat this, Palau needed a way to educate travellers and (22) ___ them earn the privilege of being a friend. Resident Laura Clarke and Palauan Jennifer Koskelin-Gibbons launched a new programme called Ol'au Palau in 2020, which offers points to those who treat the island nation gently and respectfully by making sustainable decisions, (23) ___ as using environmentally-friendly sunscreen and eating locally produced food. It also promises new experiences that may once have (24) ___ rare for tourists to partake in, e.g. taking an unmarked hike or sharing a meal with locals and elders."
+        },
+        {
+          "id": "4",
+          "instruction": "You are going to read an article about the world's 8th continent. In most lines there is one word that should not be there. It is either grammatically incorrect or does not fit in with the sense of the text. Read the text and then copy the extra word in the space provided after each line. Some lines may be correct. Indicate the correct line(s) with a tick (✓).",
+          "type": "other",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "25",
+              "prompt": "Today, schoolchildren, the explorers and politicians generally accept the division of the world's ground into seven continents."
+            },
+            {
+              "id": "26",
+              "prompt": "But in 2017, the story took on an unexpected turn: the seven-"
+            },
+            {
+              "id": "27",
+              "prompt": "continent model has been a mistake for all along. Enter Zealandia,"
+            },
+            {
+              "id": "28",
+              "prompt": "a long-lost land to the southeast of Australia, which otherwise known"
+            },
+            {
+              "id": "29",
+              "prompt": "as the planet's forgotten eighth continent. While scientists had long"
+            },
+            {
+              "id": "30",
+              "prompt": "predicted the existence of this bonus southern landmass, but it could"
+            },
+            {
+              "id": "31",
+              "prompt": "remained missing for 375 years – mainly because that it's almost"
+            },
+            {
+              "id": "32",
+              "prompt": "entirely submerged under 1-2 km of the water."
+            },
+            {
+              "id": "33",
+              "prompt": "In September 2023, an international team of researchers has"
+            },
+            {
+              "id": "34",
+              "prompt": "released the most detailed maps of Zealandia to date. In the process,"
+            },
+            {
+              "id": "35",
+              "prompt": "they uncovered hints as to how was this mysterious continent formed and why it has been obscured beneath the waves for the last 25 million years."
+            }
+          ],
+          "max_points": 11,
+          "notes": "Article title: ZEALANDIA. Text: In 1820, a Russian ship packed with sailors spotted a towering shore of ice on the horizon. This was the first ever sighting of the Fimbul Ice Shelf, (0) ___ and it marked the official discovery of a new continent: Antarctica. (0) the Today, schoolchildren, the explorers and politicians generally (25) accept the division of the world's ground into seven continents. (26) But in 2017, the story took on an unexpected turn: the seven- (27) continent model has been a mistake for all along. Enter Zealandia, (28) a long-lost land to the southeast of Australia, which otherwise known (29) as the planet's forgotten eighth continent. While scientists had long (30) predicted the existence of this bonus southern landmass, but it could (31) remained missing for 375 years – mainly because that it's almost (32) entirely submerged under 1-2 km of the water. (33) In September 2023, an international team of researchers has (34) released the most detailed maps of Zealandia to date. In the process, (35) they uncovered hints as to how was this mysterious continent formed and why it has been obscured beneath the waves for the last 25 million years."
+        }
+      ]
+    },
+    {
+      "id": "hallott",
+      "title": "Hallott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "In this section, you will hear some interesting information about two Australian animals. Your task is to complete the sentences with two words or numbers indicated by the gaps, using the exact words you hear in the recording. First, you will have some time to study the task, and then we will play the whole recording in one piece. Then you will hear the recording again, but this time we will play the text in shorter sections to give you enough time to write down your answers.",
+          "type": "fill_in",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Marsupials ___ and ___ their young in their pouch."
+            },
+            {
+              "id": "2",
+              "prompt": "Tasmanian devils have one of the most ___ ___ any mammal in the world."
+            },
+            {
+              "id": "3",
+              "prompt": "Tasmanian devils eat the remains of dead animals, even the ___ and ___."
+            },
+            {
+              "id": "4",
+              "prompt": "When threatened, Tasmanian devils howl, bare their teeth and ___ around in ___."
+            },
+            {
+              "id": "5",
+              "prompt": "The long ___ of wombats keep growing."
+            },
+            {
+              "id": "6",
+              "prompt": "The pouch of a wombat faces ___ so that ___ cannot get into it."
+            },
+            {
+              "id": "7",
+              "prompt": "Wombats eat a variety of ___ and ___."
+            },
+            {
+              "id": "8",
+              "prompt": "Wombats have an unusual ___ against dingoes and Tasmanian devils."
+            },
+            {
+              "id": "9",
+              "prompt": "The wombat ___ the opening of the ___ with its backside."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Example: Tasmanian devils are the largest carnivorous marsupials in the world."
+        },
+        {
+          "id": "2",
+          "instruction": "In this section you will listen to an interview with one of the teachers of Brazilian footballer, Roberto Firmino. Your task will be to circle the letter(s) of the correct answer(s) in the boxes on the right. Please note that in this task both answers may be correct. However, there is always at least one correct answer. This means you might have to circle one or two letters. First, you will have some time to study the task, and then we will play the whole recording in one piece. Then you will hear the recording again, but this time we will play the text in shorter sections to give you enough time to write down your answers.",
+          "type": "multiple_choice",
+          "multi_select": true,
+          "items": [
+            {
+              "id": "10",
+              "prompt": "Firmino's home ...",
+              "options": [
+                "A) was in a wealthy neighbourhood.",
+                "B) is now a hotdog place."
+              ]
+            },
+            {
+              "id": "11",
+              "prompt": "The function of the metal spikes was to keep ...",
+              "options": [
+                "A) away criminals.",
+                "B) Firmino inside."
+              ]
+            },
+            {
+              "id": "12",
+              "prompt": "Firmino's father ...",
+              "options": [
+                "A) had a small shop.",
+                "B) got some help from his son in his business."
+              ]
+            },
+            {
+              "id": "13",
+              "prompt": "Firmino's mother ...",
+              "options": [
+                "A) was afraid that her son might become a criminal.",
+                "B) encouraged her son to play football as often as possible."
+              ]
+            },
+            {
+              "id": "14",
+              "prompt": "Firmino told his teacher that ...",
+              "options": [
+                "A) his family hadn't had electricity at the weekend.",
+                "B) he was heartbroken that the family hadn't had any food in the fridge."
+              ]
+            },
+            {
+              "id": "15",
+              "prompt": "At school ...",
+              "options": [
+                "A) Firmino suddenly became very talkative when he wanted to play with a ball.",
+                "B) Pedro sometimes refused to give Firmino a ball."
+              ]
+            },
+            {
+              "id": "16",
+              "prompt": "As a well-paid star footballer, Firmino ...",
+              "options": [
+                "A) settled the medical bills of a family.",
+                "B) regularly donates some money to a hospital"
+              ]
+            }
+          ],
+          "max_points": 7,
+          "notes": "Example: Firmino played for A) Hoffenheim for four years. B) Liverpool for eight years."
+        },
+        {
+          "id": "3",
+          "instruction": "In this section you will hear a museum guide describing a famous painting called Ophelia by the English painter, John Everett Millais. Your task will be to decide whether the following statements are true, false or we do not know because the text does not say, and write the appropriate letter in the boxes on the right. Write A if the statement is true, write B if the statement is false, and write C if the text does not say. First, you will have some time to study the task, and then we will play the whole recording in one piece. Then, you will hear the recording again, but this time we will play the text in shorter sections to give you enough time to write down your answers.",
+          "type": "true_false",
+          "multi_select": false,
+          "shared_options": [
+            "A) TRUE",
+            "B) FALSE",
+            "C) THE TEXT DOES NOT SAY"
+          ],
+          "items": [
+            {
+              "id": "17",
+              "prompt": "The antique dress Millais bought was extremely expensive."
+            },
+            {
+              "id": "18",
+              "prompt": "The flowers Millais painted were all mentioned in Shakespeare's play."
+            },
+            {
+              "id": "19",
+              "prompt": "The violets in the picture symbolize innocence."
+            },
+            {
+              "id": "20",
+              "prompt": "With this picture, Millais' most important aim was the accurate depiction of nature."
+            },
+            {
+              "id": "21",
+              "prompt": "Millais started painting the background of the picture in the middle of the 19th century."
+            },
+            {
+              "id": "22",
+              "prompt": "Millais enjoyed every minute of painting peacefully outside in nature."
+            },
+            {
+              "id": "23",
+              "prompt": "Elizabeth Siddal became a painter because of Millais' influence."
+            },
+            {
+              "id": "24",
+              "prompt": "Millais didn't realize that the candles had gone out."
+            },
+            {
+              "id": "25",
+              "prompt": "Elizabeth's father had to settle the doctor's bills."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Example: The museum guide says that the Millais painting is the first stop on the tour. B"
+        }
+      ]
+    },
+    {
+      "id": "iras",
+      "title": "Íráskészség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Write an email of 120-150 words to Jake.",
+          "type": "essay",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Your family is moving and you would like to get rid of some of your items you won't need in the future. You come across the following advertisement.\nGARAGE SALE!\nYou don't have to throw away what you don't need anymore! Come to our garage sale on the first Sunday of every month, reserve a table for 10 euros, and let people fall in love with items you would otherwise throw away. Household items, outdoor furniture, tools, clothes, bags, furniture, old toys, electronics, and so much more. Bring and sell your stuff and support a good cause: we will use your table money (the money you've paid to reserve a table) to support a charitable organization of your choice.\nCity Dog Shelter – the place that takes care of and looks for responsible owners for cats and dogs lacking a home\nFood Relief – the place that offers immediate food relief services to those in need\nChristmas Box Operation – the organization that collects shoeboxes filled with love and toys at Christmas time\nWant to reserve a table and/or have any questions? Contact Jake at jake@sellyourstuff.com.\nWrite an email of 120-150 words to Jake in which you:\n• write about what items you are planning to bring to sell,\n• write about which charitable organization you would like to offer your table money to and why,\n• ask about at least two practical details of the sale.\nBegin your email like this: Hello Jake,"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Word limit: 120-150 words."
+        },
+        {
+          "id": "2",
+          "instruction": "Write a comment of 200-250 words.",
+          "type": "essay",
+          "multi_select": false,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "You have read the following post on the internet forum Family Matters:\nAlison\nI'm 19 and I have a little sister, Fran, who is nearly 13. She has a best friend, Claire, with whom she was inseparable until fourth grade. Then Math prodigy Claire was put into the advanced classes whereas Fran started working her way into the popular girls' group, extremely successfully – she has always been very sociable.\nWith her 13th birthday coming up Fran confidentially told me that she would ask our parents to let her go to a Taylor Swift concert in Manchester not far from our village. She wanted my support and asked if I could drive her there together with some other girls. It wasn't until I asked about the number of passengers I'll have that I realised that Claire was not among them. What's more, it turned out that Fran hadn't even asked her because the other girls persuaded her not to. 'That weirdo would only spoil the fun,' they said.\nI found this really disappointing, a betrayal of their friendship, but she just shrugged and said that Claire would probably not enjoy a programme like this anyway and added: 'People change, and that's normal.'\nIs it really? Still, it sounds quite heartless to me. I'd like to know what you think.\nWrite a comment of 200-250 words in which you say:\n• what being loyal to your friends means to you,\n• whether it's normal for childhood friends to drift away from each other in their teens,\n• if/how your friends influence your preferences and choices,\n• if you have ever experienced or heard of anything like the problem described in the post.\nBegin like this: Alison:"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Word limit: 200-250 words."
+        }
+      ]
+    }
+  ]
+}

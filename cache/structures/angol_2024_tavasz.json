@@ -1,0 +1,629 @@
+{
+  "sections": [
+    {
+      "id": "olvasott",
+      "title": "I. Olvasott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Match the sentences to the paragraphs about emotional eating.",
+          "type": "matching",
+          "shared_options": [
+            "A) Managing emotional eating starts with breaking the automatic cycle.",
+            "B) We're all emotional eaters to some extent.",
+            "D) Food restriction by parents often triggers a child’s desire to eat more food.",
+            "E) The trouble with emotional eating is that after the pleasure of eating is gone, the feelings that cause it remain.",
+            "F) However, some people eat less in the face of strong emotions.",
+            "G) People tend to learn emotional eating patterns at an early age.",
+            "H) It’s not easy to “unlearn” patterns of emotional eating.",
+            "I) If you find signs of physical hunger, choose a healthy snack."
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "1) ________ . Who hasn’t suddenly found room for dessert after a filling dinner or eaten cookie after cookie while cramming for a big test? But when done a lot, emotional eating can cause weight gain or cycles of binge eating."
+            },
+            {
+              "id": "2",
+              "prompt": "2) ________ . You may often feel even worse about eating the amount or type of food you did. It is important to be aware of the connection between eating and your feelings."
+            },
+            {
+              "id": "3",
+              "prompt": "3) ________ . A child who gets candy after a big achievement may grow up using candy as a reward for a job well done. A kid who is given cookies as a way to stop crying may learn to link cookies with comfort."
+            },
+            {
+              "id": "4",
+              "prompt": "4) ________ . But it is possible. It starts with understanding the differences between two types of hunger. Physical hunger means you’re likely to stop eating when full and it doesn’t cause feelings of guilt."
+            },
+            {
+              "id": "5",
+              "prompt": "5) ________ . For example, if you head to the kitchen after school each day, try to change the routine. Instead of looking for food, stop and ask yourself if you’re really hungry."
+            },
+            {
+              "id": "6",
+              "prompt": "6) ________ . If not, take a few minutes to go over the things that have happened that day and acknowledge how they made you feel. If your eating is triggered by a specific situation or mood, find a replacement activity."
+            }
+          ],
+          "max_points": 6,
+          "notes": "Text title: WHAT IS EMOTIONAL EATING? Two extra sentences provided."
+        },
+        {
+          "id": "2",
+          "instruction": "Mark A if true, B if false, C if there isn't enough information.",
+          "type": "multiple_choice",
+          "shared_options": [
+            "A (True)",
+            "B (False)",
+            "C (Not enough information)"
+          ],
+          "items": [
+            {
+              "id": "7",
+              "prompt": "Scientists found similar brain activity during sleep in both humans and certain animals in captivity."
+            },
+            {
+              "id": "8",
+              "prompt": "Scientists can’t explain why jellyfish can sleep despite not having a brain."
+            },
+            {
+              "id": "9",
+              "prompt": "The size of an animal’s brain determines the amount of time it sleeps a day."
+            },
+            {
+              "id": "10",
+              "prompt": "Seals can only swim if their whole brain is awake."
+            },
+            {
+              "id": "11",
+              "prompt": "The sleeping patterns of species change according to where they live."
+            },
+            {
+              "id": "12",
+              "prompt": "On King George Island, a small colony of penguins were observed by neuroscientists."
+            },
+            {
+              "id": "13",
+              "prompt": "It was during the time spent in their nests that the penguins were observed to fall asleep many times in a short period of time."
+            },
+            {
+              "id": "14",
+              "prompt": "When it comes to humans, microsleep normally occurs when we are well-rested."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: PENGUINS TAKE THOUSANDS OF NAPS A DAY"
+        },
+        {
+          "id": "3",
+          "instruction": "Match the half sentences based on the information in the text about London's parks.",
+          "type": "matching",
+          "shared_options": [
+            "A) is ideal for people who love various types of outdoor exercise.",
+            "B) is the place where Henry VIII used to hunt for deer.",
+            "D) has an area that used to be a burial ground for animals.",
+            "E) doesn’t allow visitors to have open fires while hanging out there.",
+            "F) was named after a building that does not exist anymore.",
+            "G) is home to various species of wild animals.",
+            "H) charges people for boating in its pond.",
+            "I) has a lot of sculptures of historic figures.",
+            "K) used to serve the hobby of a monarch."
+          ],
+          "items": [
+            {
+              "id": "15",
+              "prompt": "Crystal Palace Park ..."
+            },
+            {
+              "id": "16",
+              "prompt": "Dulwich Park ..."
+            },
+            {
+              "id": "17",
+              "prompt": "Greenwich Park ..."
+            },
+            {
+              "id": "18",
+              "prompt": "London Fields ..."
+            },
+            {
+              "id": "19",
+              "prompt": "Green Park ..."
+            },
+            {
+              "id": "20",
+              "prompt": "Hyde Park ..."
+            }
+          ],
+          "max_points": 6,
+          "notes": "Text title: LONDON’S BEST PARKS. Three extra letters provided."
+        },
+        {
+          "id": "4",
+          "instruction": "Reconstruct the text by filling in the gaps (21-28) from the list (A-L).",
+          "type": "matching",
+          "shared_options": [
+            "A) to interact with safely and effectively",
+            "B) generating completely false answers",
+            "D) having taken a drug",
+            "E) decided on a “vivid psychological verb”",
+            "F) came as a surprise to online dictionary users",
+            "G) produces false information",
+            "H) to bring their critical thinking skills",
+            "I) proves to be correct based on research",
+            "K) to pick a word connected to AI",
+            "L) to create the accurate and up-to-date information"
+          ],
+          "items": [
+            {
+              "id": "21",
+              "prompt": "The original definition of the chosen word is to “seem to see, hear, feel, or smell” something that does not exist, usually because of “a health condition or (21) ______________”."
+            },
+            {
+              "id": "22",
+              "prompt": "It now has an additional meaning, relating to when artificial intelligence systems such as ChatGPT, which generates text that mimics human writing, “hallucinates” and (22) ______________."
+            },
+            {
+              "id": "23",
+              "prompt": "Generative AI is a “powerful” but “far from perfect” tool, “one we’re all still learning how (23) ______________ – this means being aware of both its potential strengths and its current weaknesses.”"
+            },
+            {
+              "id": "24",
+              "prompt": "“AI hallucinations remind us that humans still need (24) ______________ to the use of these tools,” continued the post."
+            },
+            {
+              "id": "25",
+              "prompt": "“Human expertise is arguably more important than ever, (25) ______________ that large language models can be trained on.”"
+            },
+            {
+              "id": "26",
+              "prompt": "Henry Shevlin said that it is striking that rather than choosing a computer-specific term like “bugs” to describe the mistakes that LLMs make, the dictionary team (26) ______________."
+            },
+            {
+              "id": "27",
+              "prompt": "The dictionary provides two example sentences: “LLMs are notorious for hallucinating – (27) ______________, often supported by fictitious citations”"
+            },
+            {
+              "id": "28",
+              "prompt": "It wasn’t only Cambridge’s decision (28) ______________: according to Collins dictionary, the word of 2023 is “AI” itself."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: CAMBRIDGE DICTIONARY’S WORD OF THE YEAR IN 2023. Two extra letters provided."
+        }
+      ]
+    },
+    {
+      "id": "nyelvhelyesseg",
+      "title": "II. Nyelvhelyesség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Use the words in brackets to form the words that fit in the gaps (1-9).",
+          "type": "fill_in",
+          "items": [
+            {
+              "id": "1",
+              "prompt": "It’s an extravagant place where an (1) ________ (exclude) meal for two costs over $500."
+            },
+            {
+              "id": "2",
+              "prompt": "The (2) ________ (local) is amazing."
+            },
+            {
+              "id": "3",
+              "prompt": "The restaurant is (3) ________ (surround) by an exotic garden with different species of palm trees."
+            },
+            {
+              "id": "4",
+              "prompt": "The (4) ________ (dine) have a view of an ancient Roman villa."
+            },
+            {
+              "id": "5",
+              "prompt": "The (5) ________ (own) claim it is the smallest fine-dining establishment not only in Italy but in the world."
+            },
+            {
+              "id": "6",
+              "prompt": "Discreetness, (6) ________ (private) and secrecy rule."
+            },
+            {
+              "id": "7",
+              "prompt": "It is the perfect hiding place – except for the fact that it’s (7) ________ (wide) advertised and reviewed."
+            },
+            {
+              "id": "8",
+              "prompt": "Details of the customized meal are defined at the time of (8) ________ (confirm)."
+            },
+            {
+              "id": "9",
+              "prompt": "Visitors can’t pop in as they please to take a look inside before making a (9) ________ (reserve)."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Text title: JUST FOR TWO"
+        },
+        {
+          "id": "2",
+          "instruction": "Choose the most appropriate answer (A-D) for each gap (10-17).",
+          "type": "multiple_choice",
+          "items": [
+            {
+              "id": "10",
+              "prompt": "Soriah Abraham says she (10) ______ spending just £400 in two months.",
+              "options": [
+                "A managed",
+                "B could afford",
+                "C ended up",
+                "D continued"
+              ]
+            },
+            {
+              "id": "11",
+              "prompt": "The student, (11) ______ originally from Salem, Oregon but moved to London...",
+              "options": [
+                "A came",
+                "B that's",
+                "C whose",
+                "D who's"
+              ]
+            },
+            {
+              "id": "12",
+              "prompt": "...moved to London in October 2022 (12) ______ study fashion design...",
+              "options": [
+                "A in order that",
+                "B to",
+                "C so that",
+                "D for"
+              ]
+            },
+            {
+              "id": "13",
+              "prompt": "(13) ______ joining a specialized website, she started doing home sits around London...",
+              "options": [
+                "A After",
+                "B While",
+                "C Despite",
+                "D As for"
+              ]
+            },
+            {
+              "id": "14",
+              "prompt": "Not only (14) ______ three countries in one trip, she also only spent just £400...",
+              "options": [
+                "A she did experience",
+                "B experienced she",
+                "C she experienced",
+                "D did she experience"
+              ]
+            },
+            {
+              "id": "15",
+              "prompt": "...estimating it (15) ______ her around £3,400 without her pet-sitting jobs.",
+              "options": [
+                "A would cost",
+                "B would have cost",
+                "C would not cost",
+                "D had cost"
+              ]
+            },
+            {
+              "id": "16",
+              "prompt": "...before coming back to London to take (16) ______ of a dog, Mimi...",
+              "options": [
+                "A on",
+                "B advantage",
+                "C care",
+                "D account"
+              ]
+            },
+            {
+              "id": "17",
+              "prompt": "Soriah said: 'I could eat (17) ______ I found in the fridge and use their bikes.'",
+              "options": [
+                "A which",
+                "B what",
+                "C that",
+                "D if"
+              ]
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: PET-SITTING AROUND EUROPE"
+        },
+        {
+          "id": "3",
+          "instruction": "Write the missing words on the dotted lines (18-25). Use only one word in each gap.",
+          "type": "fill_in",
+          "items": [
+            {
+              "id": "18",
+              "prompt": "The successful candidates will be paid up to £10.80 per hour (18) ________ wear an eagle costume..."
+            },
+            {
+              "id": "19",
+              "prompt": "Those applying (19) ________ be “visitor focused,” “friendly” and also “outgoing”..."
+            },
+            {
+              "id": "20",
+              "prompt": "“Lively, energetic, fun and, last but not (20) ________ , an excellent flapper, will be top of the essentials list...”"
+            },
+            {
+              "id": "21",
+              "prompt": "...particularly as successful candidates (21) ________ likely to be “approached”..."
+            },
+            {
+              "id": "22",
+              "prompt": "...“approached by a lot of people asking (22) ________ pictures.”"
+            },
+            {
+              "id": "23",
+              "prompt": "...the global attention on the job ad had “taken us all (23) ________ surprise.”"
+            },
+            {
+              "id": "24",
+              "prompt": "More than 200 people have applied (24) ________ the five available roles..."
+            },
+            {
+              "id": "25",
+              "prompt": "...including some from countries as (25) ______ away as Thailand, India, Ukraine and Uganda."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Text title: ZOO SEEKS WORKERS TO WEAR EAGLE COSTUME AND SCARE SEAGULLS"
+        },
+        {
+          "id": "4",
+          "instruction": "Copy the extra word in the space provided. If the line is correct, indicate with a tick.",
+          "type": "short_answer",
+          "items": [
+            {
+              "id": "26",
+              "prompt": "26) anecdote, having reported by the writer Stephen King himself, says that"
+            },
+            {
+              "id": "27",
+              "prompt": "27) one day, a friend who was going to visit the author found him as lying"
+            },
+            {
+              "id": "28",
+              "prompt": "28) on the desk in a state of deep despair. “James, what’s wrong?” asked"
+            },
+            {
+              "id": "29",
+              "prompt": "29) of his friend. “Is it the job?” Joyce didn’t lift his head from the desk and"
+            },
+            {
+              "id": "30",
+              "prompt": "30) said nothing; of course what it was a matter of work. His friend continued"
+            },
+            {
+              "id": "31",
+              "prompt": "31) by it asking: “How many words did you write today?” Joyce, in a"
+            },
+            {
+              "id": "32",
+              "prompt": "32) desperate mood and with his face while still resting on the desk said:"
+            },
+            {
+              "id": "33",
+              "prompt": "33) “Seven.” “Seven? But that’s good for you, isn’t it?” the friend replied."
+            },
+            {
+              "id": "34",
+              "prompt": "34) “Yes,” Joyce said. Finally, raising his head, he had continued: “I suppose"
+            },
+            {
+              "id": "35",
+              "prompt": "35) so, but I do not know which order they go in!”"
+            }
+          ],
+          "max_points": 10,
+          "notes": "Text title: WRITING IS HARD (about James Joyce)"
+        }
+      ]
+    },
+    {
+      "id": "hallott",
+      "title": "III. Hallott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Circle the letter(s) of the correct answer(s). Both answers may be correct.",
+          "type": "multiple_choice",
+          "multi_select": true,
+          "items": [
+            {
+              "id": "1",
+              "prompt": "During the semester, Professor Wilson ....",
+              "options": [
+                "A) gave seminars on music.",
+                "B) had 17 students in his class."
+              ]
+            },
+            {
+              "id": "2",
+              "prompt": "In his syllabus, he hid information about ....",
+              "options": [
+                "A) the number of and the combination to a locker.",
+                "B) where the $50 cash prize was hidden."
+              ]
+            },
+            {
+              "id": "3",
+              "prompt": "The money was available to anyone who was the first to ...",
+              "options": [
+                "A) report the combination to Professor Wilson.",
+                "B) find and open the locker."
+              ]
+            },
+            {
+              "id": "4",
+              "prompt": "At the end of the semester, Professor Wilson ...",
+              "options": [
+                "A) discussed the experiment with his students.",
+                "B) took the cash prize out of the locker."
+              ]
+            },
+            {
+              "id": "5",
+              "prompt": "Professor Wilson said that his aim was to ...",
+              "options": [
+                "A) improve the mood of his students during the pandemic.",
+                "B) reward his students for reading everything in the syllabus."
+              ]
+            },
+            {
+              "id": "6",
+              "prompt": "Professor Wilson said that ...",
+              "options": [
+                "A) when he was a student he would certainly have fully read the document.",
+                "B) not everything was equally important in a syllabus."
+              ]
+            },
+            {
+              "id": "7",
+              "prompt": "The professor had no doubt that the money had remained unclaimed because ...",
+              "options": [
+                "A) the lucky student would definitely have mentioned it.",
+                "B) nobody seemed to have touched the lock."
+              ]
+            },
+            {
+              "id": "8",
+              "prompt": "A senior student said that ...",
+              "options": [
+                "A) he felt quite stupid when he learnt about Mr. Wilson's joke.",
+                "B) it was out of character for Mr. Wilson to do something like that."
+              ]
+            }
+          ],
+          "max_points": 8,
+          "notes": "Story about a professor's experiment with his syllabus."
+        },
+        {
+          "id": "2",
+          "instruction": "Complete the sentences with two words using the exact words you hear.",
+          "type": "fill_in",
+          "items": [
+            {
+              "id": "9",
+              "prompt": "In his letter, Kurt Vonnegut wrote that he didn’t make ______________ ______________ any longer."
+            },
+            {
+              "id": "10",
+              "prompt": "His most important message was that the students should ______________ ______________ any ______________ ______________."
+            },
+            {
+              "id": "11",
+              "prompt": "Students should not dance, act, sing or paint to get ______________ ______________ and ______________ ______________, but to experience becoming an adult."
+            },
+            {
+              "id": "12",
+              "prompt": "He also encouraged them to do all sorts of crazy things, for example to ______________ ______________ a ______________ ______________ in their mashed potatoes."
+            },
+            {
+              "id": "13",
+              "prompt": "Vonnegut also asked them to write a poem that consisted of ______________ ______________ ______________ ______________ and rhymes."
+            },
+            {
+              "id": "14",
+              "prompt": "He told them not to show the poem to anyone, not even to their ______________ ______________ or ______________ ______________ or their English teacher."
+            },
+            {
+              "id": "15",
+              "prompt": "Then, they should tear up their poem into small pieces, and throw them into widely separated ______________ ______________ ______________ ______________."
+            },
+            {
+              "id": "16",
+              "prompt": "By writing and then getting rid of their poems, they would not only learn a lot about themselves, but they would also make their ______________ ______________ ______________ ______________."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Anecdote about Kurt Vonnegut."
+        },
+        {
+          "id": "3",
+          "instruction": "Decide whether the statements are true (A), false (B) or the text does not say (C).",
+          "type": "multiple_choice",
+          "shared_options": [
+            "A = TRUE",
+            "B = FALSE",
+            "C = THE TEXT DOES NOT SAY"
+          ],
+          "items": [
+            {
+              "id": "17",
+              "prompt": "All three of the Squires children still remember Willow."
+            },
+            {
+              "id": "18",
+              "prompt": "It is still not known how Willow ended up in New York."
+            },
+            {
+              "id": "19",
+              "prompt": "The Squireses have never given up hope that Willow will return home one day."
+            },
+            {
+              "id": "20",
+              "prompt": "A lot of people responded to the ‘lost cat’ posters the family had put out."
+            },
+            {
+              "id": "21",
+              "prompt": "The Squireses were informed that Willow had been found via email."
+            },
+            {
+              "id": "22",
+              "prompt": "Willow was found by animal rights activists."
+            },
+            {
+              "id": "23",
+              "prompt": "Mrs Squires says that she would have a microchip implanted in her kids if she could."
+            },
+            {
+              "id": "24",
+              "prompt": "The Squireses had their home renovated in 2018."
+            },
+            {
+              "id": "25",
+              "prompt": "Microchipping might cause your pet some pain."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Story of a cat named Willow that disappeared and was found years later."
+        }
+      ]
+    },
+    {
+      "id": "iras",
+      "title": "IV. Íráskészség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Write an email of 120-150 words to your friend David about joining a student club.",
+          "type": "essay",
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Write an email in which you: thank him for the information and say what you think of student clubs in general; write about which of the three clubs (Climate Society, University Dance Society, Harry Potter Society) you would most like to join and why; ask about membership fees and the frequency of meetings."
+            }
+          ],
+          "max_points": 15,
+          "notes": "Word limit: 120-150 words."
+        },
+        {
+          "id": "2",
+          "instruction": "Write a comment of 200-250 words to Aneka on an internet forum about fireworks.",
+          "type": "essay",
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Give your opinion about: fireworks as a form of celebration; Aneka’s argument against them; joining an action group for a cause you find important; what she should do in this situation (attending a wedding with fireworks)."
+            }
+          ],
+          "max_points": 15,
+          "notes": "Word limit: 200-250 words."
+        }
+      ]
+    }
+  ]
+}

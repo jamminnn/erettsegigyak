@@ -6,5 +6,7 @@ data.db-journal
 cache/*
 !cache/.gitkeep
 !cache/*.pdf
+!cache/structures/
+!cache/structures/*.json
 *.log
 .DS_Store

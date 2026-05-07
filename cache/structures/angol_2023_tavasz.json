@@ -1,0 +1,636 @@
+{
+  "sections": [
+    {
+      "id": "olvasott",
+      "title": "Olvasott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Write the letters of the titles (A-K) next to the appropriate numbers (1-6). There are three extra headings.",
+          "type": "matching",
+          "shared_options": [
+            "A) Fewer student-teacher conflicts",
+            "B) Reduced risk of accidents",
+            "D) Fewer behavioural problems",
+            "E) Time for a healthy meal",
+            "F) Fewer family conflicts",
+            "G) Improved academic performance",
+            "H) More extracurricular activities",
+            "I) Minimized lateness and absences",
+            "K) Improved health"
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "A lack of sleep hurts brain function. Students who get more sleep have better learning capabilities and are better able to process what they learn. A 2018 study found that students in schools that pushed start times to 8:45 a.m. got slightly higher grades than before the change."
+            },
+            {
+              "id": "2",
+              "prompt": "When running late in the mornings, breakfast is the first thing we skip. However, with this bad habit, students are left hungry. By school starting later, students would have the chance to have a proper breakfast."
+            },
+            {
+              "id": "3",
+              "prompt": "Poor sleep leads to drowsiness, the cause of 1 in 10 car crashes, 27% of which involve teenage drivers. However, students with later school start times have more time to sleep sufficiently, thus are significantly more likely to drive more safely."
+            },
+            {
+              "id": "4",
+              "prompt": "Teens experience mood swings as a common result of puberty; however, poor sleep only worsens their moods and may cause anxiety, stress, and irritability. When students sleep enough, they are more stable emotionally, and are less likely to have conflicts with their schoolmates."
+            },
+            {
+              "id": "5",
+              "prompt": "Students with later school start times are more likely to be in better physical condition, because sleeping adequately decreases the likelihood of developing diabetes, obesity, or high blood pressure. It also allows their bodies to have enough time to repair at night."
+            },
+            {
+              "id": "6",
+              "prompt": "Exhausted students may skip school to sleep more, but if altered school schedules permitted them to sleep longer, they’d be less likely to do so. A 2016 study found that in schools that started at 8:45 am, there was a 66% decrease in students arriving late or taking the day off."
+            }
+          ],
+          "max_points": 6,
+          "notes": "Article title: THE BENEFITS OF SCHOOL STARTING LATER"
+        },
+        {
+          "id": "2",
+          "instruction": "Reconstruct the text by filling in the gaps (7-15) from the list (A-M). There are two extra letters.",
+          "type": "matching",
+          "shared_options": [
+            "A) in dying their hair purple",
+            "B) to plan ahead",
+            "D) help them think through what they are doing",
+            "E) haven’t had the time and experience",
+            "F) mismatch in brain maturity",
+            "G) make the wrong decision",
+            "H) between childhood and adulthood",
+            "I) bungee jumping or getting a tattoo",
+            "K) do not appear fully mature",
+            "L) driving when drunk",
+            "M) ask a teenager"
+          ],
+          "items": [
+            {
+              "id": "7",
+              "prompt": "It’s not just that teenagers (7) _________ to acquire a wide sense of the world; quite simply, their brains just haven’t physically matured yet."
+            },
+            {
+              "id": "8",
+              "prompt": "Dealing with pressure and stress is no small challenge for a fully mature brain, and it’s even harder for one that’s (8) _________ and in transition from concrete to abstract thinking."
+            },
+            {
+              "id": "9",
+              "prompt": "“In fact, some parts of the brain — such as the prefrontal cortex (PFC), which sits right behind the eyes — (9) _________ until 24 years old!"
+            },
+            {
+              "id": "10",
+              "prompt": "Many neuroscientists think that this (10) _________ explains why adolescents are so emotional and impulsive,” says Andrew Garner."
+            },
+            {
+              "id": "11",
+              "prompt": "“The PFC plays an important role in regulating mood... which includes the ability both (11) _________ and to see the consequences of one’s actions,” says Dr. Garner."
+            },
+            {
+              "id": "12",
+              "prompt": "If you (12) _________ whether it is a good idea to get into a car with friends who are drunk, most will say ‘no way.’"
+            },
+            {
+              "id": "13",
+              "prompt": "This is because in calmer moments, the relatively slow PFC is able to think abstractly and see the potentially tragic consequences of (13) _________ ."
+            },
+            {
+              "id": "14",
+              "prompt": "But, in the heat of the moment, thanks to the brain not being fully developed, there is a chance that the teen is going to (14) _________ ."
+            },
+            {
+              "id": "15",
+              "prompt": "That is why, suggests Dr. Garner, it is the job of parents and teachers to get teenagers to slow down and (15) _________ – and wait for the rest of their brains to develop."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Article title: WHAT’S GOING ON IN THE TEENAGE BRAIN?"
+        },
+        {
+          "id": "3",
+          "instruction": "Match the half sentences (16-21) based on the information in the text. There are three extra letters.",
+          "type": "matching",
+          "shared_options": [
+            "A) is for people who want a career in the food industry.",
+            "B) offers a variety of online courses.",
+            "D) supports a local charity.",
+            "E) is run by a couple who also have a restaurant.",
+            "F) is a place to choose to improve baking skills.",
+            "G) has a course that teaches people how to barbecue.",
+            "H) has cookery classes for kids.",
+            "I) does not require payment for some of its courses.",
+            "K) offers tuition in the client’s home."
+          ],
+          "items": [
+            {
+              "id": "16",
+              "prompt": "The Indian Cook School …"
+            },
+            {
+              "id": "17",
+              "prompt": "The New Town Cookery School …"
+            },
+            {
+              "id": "18",
+              "prompt": "Kaleyard …"
+            },
+            {
+              "id": "19",
+              "prompt": "The School of Food & Wine …"
+            },
+            {
+              "id": "20",
+              "prompt": "The Dining Room …"
+            },
+            {
+              "id": "21",
+              "prompt": "The School of Wok …"
+            }
+          ],
+          "max_points": 6,
+          "notes": "Article title: LEARN TO CREATE GREAT DISHES!"
+        },
+        {
+          "id": "4",
+          "instruction": "Write the letters of the paragraphs (A-I) next to the appropriate numbers (22-27). There are two extra paragraphs.",
+          "type": "matching",
+          "shared_options": [
+            "A) In the end, she realized that having a study partner is helpful in many ways...",
+            "B) DeFauw is thankful she had the opportunity to get to go back to school and get her degree...",
+            "D) Flash forward to 2019, when DeFauw showed interest in the college education she left behind.",
+            "E) “At times I wanted to quit, because I was really lonely. But I didn’t.” DeFauw said...",
+            "F) The special man was Don Freeman. The two got married in 1955, and had three children together...",
+            "G) “When we made calls to the school, they were shocked to hear we were asking about a student from the 50s,” one of her granddaughters said.",
+            "H) She planned to write her thesis about getting a degree in old age. “Believe it or not, I’m not the only one,” she says, laughing.",
+            "I) “It was my first computer,” DeFauw said. “My children had to teach me how to use it.”"
+          ],
+          "items": [
+            {
+              "id": "22",
+              "prompt": "“I went to school for three and a half years, but decided to leave after I met him,” DeFauw said. (22) _____________ DeFauw eventually got remarried to her late second husband, Roy DeFauw."
+            },
+            {
+              "id": "23",
+              "prompt": "Together they had six children. Throughout the years, her family grew, and she now has 17 grandchildren and 24 great-grandchildren. (23) _____________ “I guess I was upset that I didn’t finish school and my grandchildren also encouraged me to go back,” she said."
+            },
+            {
+              "id": "24",
+              "prompt": "“...so she enrolled back at Northern Illinois and began taking classes. (24) _____________ But this time around, things were much different for DeFauw."
+            },
+            {
+              "id": "25",
+              "prompt": "Instead of walking to campus, she attended classes from behind a computer screen her children gave her in her retirement home. (25) _____________ When the Covid-19 pandemic began in 2020, she was thankful for the computer."
+            },
+            {
+              "id": "26",
+              "prompt": "She was on her own during that time and could have no visitors. (26) _____________ Now, three years later, she’ll put on the cap and gown and receive a Bachelor of General Studies degree from the university this weekend."
+            },
+            {
+              "id": "27",
+              "prompt": "Now, three years later, she’ll put on the cap and gown and receive a Bachelor of General Studies degree from the university this weekend. (27) _____________"
+            }
+          ],
+          "max_points": 6,
+          "notes": "Article title: WOMAN GRADUATES 71 YEARS AFTER STARTING COLLEGE"
+        }
+      ]
+    },
+    {
+      "id": "nyelvhelyesseg",
+      "title": "Nyelvhelyesség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Use the words in brackets to form the words that fit in the gaps (1-9). Use only one word for each gap.",
+          "type": "fill_in",
+          "items": [
+            {
+              "id": "1",
+              "prompt": "What is crazier than a guy in snowbound Massachusetts boxing up the white stuff and offering it for (1) ________ (sell) online?"
+            },
+            {
+              "id": "2",
+              "prompt": "A man in (2) ________ (suburb) Boston is selling snow online to customers in warmer states."
+            },
+            {
+              "id": "3",
+              "prompt": "For $89, (3) ________ (invent) entrepreneur Kyle Waring will ship you 6 pounds of Boston-area snow..."
+            },
+            {
+              "id": "4",
+              "prompt": "His social media (4) ________ (count) claim to have filled more than 133 orders for snow..."
+            },
+            {
+              "id": "5",
+              "prompt": "With more than 45 total inches, Boston has set a record this winter for the (5) ________ (snow) month in its history."
+            },
+            {
+              "id": "6",
+              "prompt": "Most (6) ________ (reside) see the huge piles of snow as a nuisance, but Waring saw an opportunity."
+            },
+            {
+              "id": "7",
+              "prompt": "It all started a few weeks ago... in Manchester-by-the-Sea, a (7) ________ (coast) suburb north of Boston."
+            },
+            {
+              "id": "8",
+              "prompt": "He joked about (8) ________ (ship) the stuff to friends and family in warmer states, and an idea was born."
+            },
+            {
+              "id": "9",
+              "prompt": "Whether Waring can sustain his popular venture into the spring remains to be seen. But he has no (9) ________ (short) of product."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Article title: BOSTON SNOW BUSINESS"
+        },
+        {
+          "id": "2",
+          "instruction": "Choose the most appropriate answer from the options (A-D) for each gap (10-17).",
+          "type": "multiple_choice",
+          "items": [
+            {
+              "id": "10",
+              "prompt": "(10) ______ , the baguette has been in decline in recent years...",
+              "options": [
+                "A) Therefore",
+                "B) And yet",
+                "C) Moreover",
+                "D) Altogether"
+              ]
+            },
+            {
+              "id": "11",
+              "prompt": "But now (11) ______ to celebrate, as UNESCO adds the baguette to its cultural heritage list.",
+              "options": [
+                "A) it is due",
+                "B) there’s something",
+                "C) they are",
+                "D) it was reason"
+              ]
+            },
+            {
+              "id": "12",
+              "prompt": "The body announced that it (12) ______ \"the special know-how and culture of baguette bread\" to its list...",
+              "options": [
+                "A) has been added",
+                "B) is added",
+                "C) must add",
+                "D) had added"
+              ]
+            },
+            {
+              "id": "13",
+              "prompt": "adding: \"The baguette is a daily ritual, a structuring element of the meal, (13) ______ to sharing and joy.\"",
+              "options": [
+                "A) contributing",
+                "B) identified",
+                "C) regarding",
+                "D) considered"
+              ]
+            },
+            {
+              "id": "14",
+              "prompt": "Napoleon because it would be easier for soldiers to carry, (14) ______ others suggest it came along later...",
+              "options": [
+                "A) all",
+                "B) however",
+                "C) while",
+                "D) furthermore"
+              ]
+            },
+            {
+              "id": "15",
+              "prompt": "(15) ______ , the baguette as we know it today was only officially named just over 100 years ago...",
+              "options": [
+                "A) Otherwise",
+                "B) Accidentally",
+                "C) Meanwhile",
+                "D) However"
+              ]
+            },
+            {
+              "id": "16",
+              "prompt": "(16) ______ the fact that since 1970 400 artisanal bakeries have closed down each year...",
+              "options": [
+                "A) In spite",
+                "B) Considering",
+                "C) Despite",
+                "D) Along with"
+              ]
+            },
+            {
+              "id": "17",
+              "prompt": "that affects all socio-cultural categories, (17) ______ you're rich or poor... it doesn't matter...",
+              "options": [
+                "A) whether",
+                "B) either",
+                "C) why",
+                "D) both"
+              ]
+            }
+          ],
+          "max_points": 8,
+          "notes": "Article title: FRENCH BAGUETTE GETS UNESCO HERITAGE STATUS"
+        },
+        {
+          "id": "3",
+          "instruction": "Write the missing words on the dotted lines (18-26). Use only one word in each gap.",
+          "type": "fill_in",
+          "items": [
+            {
+              "id": "18",
+              "prompt": "...thought to be the first woman (18) ________ produce, engineer and promote music on her own rock and roll music label."
+            },
+            {
+              "id": "19",
+              "prompt": "She was making music very (19) ________ to the star band Velvet Underground before the world was even introduced..."
+            },
+            {
+              "id": "20",
+              "prompt": "...before the world was even introduced (20) ________ rock & roll."
+            },
+            {
+              "id": "21",
+              "prompt": "The Mississippi-born, ballgown-wearing guitarist played with more energy (21) ________ any Indie band today..."
+            },
+            {
+              "id": "22",
+              "prompt": "...Cordell would strum on her guitar (22) ________ fast that she would often break her guitar picks."
+            },
+            {
+              "id": "23",
+              "prompt": "“They did (23) ________ have a name for “rock & roll” then..."
+            },
+            {
+              "id": "24",
+              "prompt": "...Cordell (24) ________ MTV news in 1989. “I just always played it fast”."
+            },
+            {
+              "id": "25",
+              "prompt": "...and soon became something (25) ________ an icon on the Memphis music scene."
+            },
+            {
+              "id": "26",
+              "prompt": "Her first music video, (26) ________ helped her gain nationwide fame, was filmed at that very house."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Article title: THE ROCKIN’ GRANNY"
+        },
+        {
+          "id": "4",
+          "instruction": "In most lines there is one word that should not be there. Copy the extra word in the space provided. Indicate correct lines with a tick (✓).",
+          "type": "short_answer",
+          "items": [
+            {
+              "id": "27",
+              "prompt": "27) equipment. His wife was standing nearby to watching him. After a long"
+            },
+            {
+              "id": "28",
+              "prompt": "28) period of the silence she finally said: “Tim, I've been thinking, now that"
+            },
+            {
+              "id": "29",
+              "prompt": "29) we are married maybe it’s time you quit golfing. You should spend too"
+            },
+            {
+              "id": "30",
+              "prompt": "30) much time on the golf course. You could probably get a good price as"
+            },
+            {
+              "id": "31",
+              "prompt": "31) for your clubs.” A horrified expression appeared on Tim’s face."
+            },
+            {
+              "id": "32",
+              "prompt": "32) His wife alarmingly said, “Darling, what’s wrong?\""
+            },
+            {
+              "id": "33",
+              "prompt": "33) “It’s funny. For a minute you were beginning to have sound like my ex-"
+            },
+            {
+              "id": "34",
+              "prompt": "34) wife,” he says. “Ex-wife!” she screams, “It’s a news to me you were"
+            },
+            {
+              "id": "35",
+              "prompt": "35) married before!” “I wasn't,” he had replied."
+            }
+          ],
+          "max_points": 9,
+          "notes": "Joke title: HAPPILY MARRIED"
+        }
+      ]
+    },
+    {
+      "id": "hallott",
+      "title": "Hallott szöveg értése",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Decide whether the following statements are true, false or we do not know. A = TRUE, B = FALSE, C = THE TEXT DOES NOT SAY.",
+          "type": "multiple_choice",
+          "shared_options": [
+            "A = TRUE",
+            "B = FALSE",
+            "C = THE TEXT DOES NOT SAY"
+          ],
+          "items": [
+            {
+              "id": "1",
+              "prompt": "In the photo above we can see Sparkie and his owner when the bird was still alive."
+            },
+            {
+              "id": "2",
+              "prompt": "The stuffed body of Sparkie can be seen in a museum in Newcastle."
+            },
+            {
+              "id": "3",
+              "prompt": "Sparkie died at an extremely young age for a budgie."
+            },
+            {
+              "id": "4",
+              "prompt": "Sparkie was able to ‘say’ eight full nursery rhymes."
+            },
+            {
+              "id": "5",
+              "prompt": "Geordie is the local dialect used by people in the area."
+            },
+            {
+              "id": "6",
+              "prompt": "A record with Sparkie’s voice on it reached the top of the charts in 1958."
+            },
+            {
+              "id": "7",
+              "prompt": "Sparkie’s amazing ability was the result of regular training by his owner."
+            },
+            {
+              "id": "8",
+              "prompt": "Sparkie is not listed as a record holder in the Guinness Book of Records any longer."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Story: Sparkie, the budgie"
+        },
+        {
+          "id": "2",
+          "instruction": "Complete the sentences with two words indicated by the gaps, using the exact words you hear.",
+          "type": "fill_in",
+          "items": [
+            {
+              "id": "9",
+              "prompt": "The company is famous for being a top ………………..….…..….. and ………..……….……..….. of clothes of the highest standards."
+            },
+            {
+              "id": "10",
+              "prompt": "The fashion house’s latest item, a brand new it-bag, has become a(n) ……………….……..….. …………….……..….. bestseller for the 2022 Autumn season."
+            },
+            {
+              "id": "11",
+              "prompt": "The ridiculously expensive Trash Pouch has generated colossal ……………….……..….. ……………….……..….. all over the world."
+            },
+            {
+              "id": "12",
+              "prompt": "Earlier this year, the fashion house released a pair of new, deliberately ……………….……..….. and ……………….……..…… trainers."
+            },
+            {
+              "id": "13",
+              "prompt": "The fashion house has already been in the ……………….……..….. ……………….……..….. for its new Paris footwear collection."
+            },
+            {
+              "id": "14",
+              "prompt": "The brand says that they just wanted to draw attention to fashion’s role in ……………….……..….. ……………….……..….. with its new Paris sneakers."
+            },
+            {
+              "id": "15",
+              "prompt": "The controversial Paris shoes went viral on the Chinese ……………….……..….. ……………….……..….. Weibo last year."
+            },
+            {
+              "id": "16",
+              "prompt": "“I can find a pair of these shoes in the …………………………...……..….. for ……………..….….…..……,” one person wrote in a Chinese newspaper."
+            }
+          ],
+          "max_points": 8,
+          "notes": "Topic: New fashion items"
+        },
+        {
+          "id": "3",
+          "instruction": "Circle the letter(s) of the correct answer(s). Both answers may be correct, but there is always at least one correct answer.",
+          "type": "multiple_choice",
+          "multi_select": true,
+          "items": [
+            {
+              "id": "17",
+              "prompt": "The hotel booking website offers the winner of the contest $15,000 …",
+              "options": [
+                "A) for visiting the company’s 10 best retro beach motels.",
+                "B) and an additional $10,000 for travel expenses."
+              ]
+            },
+            {
+              "id": "18",
+              "prompt": "Melissa Dohmen is …",
+              "options": [
+                "A) the spokesperson for the website.",
+                "B) being interviewed by phone."
+              ]
+            },
+            {
+              "id": "19",
+              "prompt": "In addition to the money, the winner will be supplied with gifts such as …",
+              "options": [
+                "A) a digital camera.",
+                "B) sunglasses."
+              ]
+            },
+            {
+              "id": "20",
+              "prompt": "To apply for the job, applicants are required to …",
+              "options": [
+                "A) be 21 or older.",
+                "B) give their Instagram username."
+              ]
+            },
+            {
+              "id": "21",
+              "prompt": "The applicants will be asked questions about …",
+              "options": [
+                "A) their imaginary travel partner preferences.",
+                "B) the best retro hotel they have ever stayed at."
+              ]
+            },
+            {
+              "id": "22",
+              "prompt": "Applications will be evaluated regarding, for example, how …",
+              "options": [
+                "A) experienced they are as travellers.",
+                "B) well they answer the questions."
+              ]
+            },
+            {
+              "id": "23",
+              "prompt": "These hotels are special because they …",
+              "options": [
+                "A) can “transport” people back to the past.",
+                "B) are usually cheaper than large luxury hotels."
+              ]
+            },
+            {
+              "id": "24",
+              "prompt": "According to Ms Dohmen, these days …",
+              "options": [
+                "A) more and more people want to travel.",
+                "B) travel prices are already slowly going down."
+              ]
+            },
+            {
+              "id": "25",
+              "prompt": "The deadline for …",
+              "options": [
+                "A) submitting applications is August 5.",
+                "B) notifying the winner is the end of the summer."
+              ]
+            }
+          ],
+          "max_points": 9,
+          "notes": "Interview about a new contest for an attractive job"
+        }
+      ]
+    },
+    {
+      "id": "iras",
+      "title": "Íráskészség",
+      "tasks": [
+        {
+          "id": "1",
+          "instruction": "Write an email of 120-150 words to Carl about ice skating courses.",
+          "type": "essay",
+          "items": [
+            {
+              "id": "1",
+              "prompt": "Write an email to Carl (carl.hagen@learntoskatepittsburgh.us) in which you: tell him about the level of your skating skills; say what kind of course you would like to take part in and how frequently you can go; ask about the length of sessions, the necessary equipment, and fees. Begin: Hello Carl,"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Word limit: 120-150 words"
+        },
+        {
+          "id": "2",
+          "instruction": "Write a forum post of 200-250 words replying to Ida about paranormal abilities.",
+          "type": "essay",
+          "items": [
+            {
+              "id": "2",
+              "prompt": "Write a post replying to Ida in which you tell her: what you think of paranormal abilities in general; whether you know anyone who has had their future told; if you think Ida’s aunt’s suggestion is a good idea; what you think Ida should do. Begin: Ida:"
+            }
+          ],
+          "max_points": 15,
+          "notes": "Word limit: 200-250 words"
+        }
+      ]
+    }
+  ]
+}
